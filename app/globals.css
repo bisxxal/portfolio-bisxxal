@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'New';
+  src: url('/fonts/NeuePower-Ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+@font-face {
+  font-family: 'cb';
+  src: url('/fonts/cyberank-malrv.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+/* @font-face {
+  font-family: 'bath';
+  src: url('/fonts/bathyork-1j9qj.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+} */
+@font-face {
+  font-family: 'bath';
+  src: url('/fonts/InstrumentSans_Condensed-Bold-BF645daa0ed1757.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.leftside h1,
+.leftside span { 
+  font-family:  'bath' !important;
+  font-weight: bolder;  
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; 
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  position: relative;
+  color: white !important;
+  background-color: #080312;
+}
+.inshadow{
+  box-shadow: inset 0 0 10px #ffffff1c;
+}
+.frame {
+  background: #161621;
+  background: linear-gradient(179deg, #9a83d3 -15%, #080312 96%);
+}
+.footer {
+  background: #161621;
+  background: linear-gradient(0deg, #9a83d3 -36%, #080312 64%);
+}
+.footer2 {
+  background: #18255a;
+  background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
+}
+.logo{
+  background: rgb(17,17,17);
+  background:linear-gradient(179deg, #ffffff -22%, #080312 98%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+} 
+::selection{
+  background-color  : #83afef;
+  color: #121925;
+}
+.tilt {
+  transform-style: preserve-3d;
+}
+ 
+.tilt-child{
+  
+  transform: translateZ(20px);
+}
+
+.sitgrd{  
+  background: linear-gradient(0deg, #154adc6b 44%, #00031900 102%);
+}
+.ins:hover {
+  background: linear-gradient(45deg, #f9ce34,#ee2a7b,#6228d7); 
+  animation: gradientBackground 15s ease infinite;
+  transform-style: preserve-3d;
+} 
+
+.inns:hover{
+  background: linear-gradient(45deg, #f9ce34,#ee2a7b,#6228d7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maill:hover{
+  background: linear-gradient(160deg, #0047e7,#008744,#d62d20 );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mail:hover {
+  background: linear-gradient(160deg, #0047e7,#008744,#d62d20 );
+  animation: gradientBackground 15s ease infinite;
+  transform-style: preserve-3d;
+} 
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.sad{ 
+box-shadow: 0px -1px 31px -2px #6a9fee;
+ 
+}  
+.animate-gradient {
+  background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transparent 50%), radial-gradient(at 36% 52%, hsla(211,68%,60%,1) 0px, transparent 50%), radial-gradient(at 27% 14%, hsla(156,74%,75%,1) 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 7s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.logo h2,.movindtextdiv h1 { 
+  font-family: "Bebas Neue" !important; 
+}
+.logo3 h2{  
+  font-family: 'cb' !important; 
+} 
+  
+.leftside span{ 
+  text-shadow: none;
+} 
+.lbtn:active {
+  transform: scale(0.95);
+  background: linear-gradient(270deg, #360266, #4E48E6, #ff00ea);
+  background-size: 400% 400%;
+   
+  animation: gradient 10s ease infinite;
+}
+
+.lbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+}
+
+.lbtn:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+
+.lbtn:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: rgb(222,0,75);
+  background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+
+.lbtn:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+
+@keyframes effect {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.mainimg ,.icon{
+  animation: imgani 1s linear alternate-reverse infinite;
+  filter:contrast(1.19) drop-shadow(-10px 4px 12px #000000a7);
+}
+.icon{
+  animation: imgani 2s linear alternate-reverse infinite; 
+}
+@keyframes imgani {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.movindtextdiv h1 ::selection {
+  background-color: transparent;
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  background: linear-gradient(76deg, #121925 0%, rgba(255, 255, 255, 0) 123%);
+}
+
+.skils {   
+background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transparent 50%), radial-gradient(at 36% 52%, hsla(211,68%,60%,1) 0px, transparent 50%), radial-gradient(at 27% 14%, hsla(156,74%,75%,1) 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);   background-size: 200% 200%;
+  animation: gradientMove 5s linear alternate-reverse infinite;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.skilsimgh {
+  background: linear-gradient(0deg, #ffffff30 5%, rgba(0, 0, 0, 0) 58%);
+}
+.page6 button {
+  box-shadow: 0px -1px 31px -2px rgb(0, 255, 0);
+}
+.page7 div {
+  background-color: transparent;
+}
+
+.myworkdiv img {
+  box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease;
+}
+
+.secondftr h2 , .logo2{
+  background: rgb(17,17,17);
+  background:linear-gradient(179deg, #ffffff -22%, #34294c 98%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+ 
+.circlemove { 
+  animation: cirmove 4s infinite alternate-reverse ease-in-out;
+}
+@keyframes cirmove {
+  to{
+    transform: translateX(0) ;
+  }
+  from{
+    transform: translateX(30%) translateY(-40%);
+  }
+  }
