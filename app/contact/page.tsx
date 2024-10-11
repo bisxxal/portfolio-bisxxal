@@ -2,7 +2,7 @@
 import toast from "react-hot-toast";
 import gsap from 'gsap'; 
 import { useGSAP } from '@gsap/react';
-function page() {
+function Contactpage() {
 
     useGSAP(() => {
         gsap.from(".secondftr h2", {
@@ -80,4 +80,4 @@ function page() {
   )
 }
 
-export default page
+export default Contactpage

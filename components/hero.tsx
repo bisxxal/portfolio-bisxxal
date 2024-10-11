@@ -111,7 +111,7 @@ function HeroNext() {
           </div>
 
           <div className="bgimg tilt-child w-[550px]">
-            <img className="mainimg object-cover  " src={'/newbisx.png'} alt="" />
+            <Image  className="mainimg object-cover  " src={'/newbisx.png'} alt="" width={400} height={400} />
           </div>
         </div>
 
