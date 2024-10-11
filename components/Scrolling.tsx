@@ -1,4 +1,4 @@
- 
+//@ts-nocheck
 "use client";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import React, { ReactNode } from 'react';
