@@ -86,7 +86,7 @@ function Skil() {
             </motion.div>
 
             <motion.div drag dragConstraints={ref} whileDrag={{scale:1.01}} className="skilsimgh inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-2xl lg:mx-[50px] bg-[#ffffff09] border-b border-[#ffffff5c] backdrop-blur-[5px]  defect1 mrg ps">
-              {/* <Image loading="lazy"  className=' h-[58%] w-[50%] ' src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png' alt=""  width={300} height={400}/> */}
+              <Image loading="lazy"  className=' h-[58%] w-[50%] ' src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png' alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Docker</h1>
             </motion.div>
 

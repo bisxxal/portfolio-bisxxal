@@ -16,7 +16,7 @@ function HeroNext() {
     VanillaTilt.init(elements, {
       max: 6,
       speed: 1000,
-      perspective: 1000,
+      perspective: 800,
       "max-glare": 0.5,
       easing: "cubic-bezier(.03,.98,.52,.99)",
     });
