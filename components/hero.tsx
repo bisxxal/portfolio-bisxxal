@@ -14,7 +14,7 @@ function HeroNext() {
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll(".tilt")) as HTMLElement[];
     VanillaTilt.init(elements, {
-      max: 6,
+      max: 5,
       speed: 1000,
       perspective: 800,
       "max-glare": 0.5,
