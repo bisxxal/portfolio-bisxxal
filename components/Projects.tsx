@@ -26,7 +26,7 @@ function Projects() {
 
   return (
     <>
-    <div className='w-full proj  project overflow-hidden h-[70vh] lg:h-screen  bg-transparent z-[2]  '>
+    <div className='w-full proj ant  project overflow-hidden h-[70vh] lg:h-screen  bg-transparent z-[2]  '>
         <div className="page7 relative h-[70vh] lg:h-screen flex items-center flex-col bg-[#7E8389 ">
           <div className="pg7div">
             <h1 className='logo2 absolute leading-none  max-md:top-1/4 text-[#ffffff66]  w-full left-0 lg:left-[46px] font-bold lg:text-[290px] text-[100px] mt-10  '>
@@ -41,7 +41,7 @@ function Projects() {
             <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w5} alt=""/>
           </div>
           <a  className=' z-10' target='_blank' href='https://github.com/bisxxal'> 
-          <h1 className=' text-[40px] font-bold pb-10 text-gray-400 ' >See all my works </h1>
+          <h1 className='ant logo text-[40px] font-bold pb-10 text-gray-400 ' >See all my works </h1>
           </a>
           
         </div>

@@ -18,13 +18,13 @@
   font-style: normal;
   font-display: swap; 
 }
-/* @font-face {
-  font-family: 'bath';
+@font-face {
+  font-family: 'bath2';
   src: url('/fonts/bathyork-1j9qj.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; 
-} */
+}
 @font-face {
   font-family: 'bath';
   src: url('/fonts/InstrumentSans_Condensed-Bold-BF645daa0ed1757.ttf') format('truetype');
@@ -33,10 +33,13 @@
   font-display: swap;
 }
 
-
+.ant{
+  font-family: 'New' !important;
+  /* letter-spacing: 2px; */
+}
 .leftside h1,
 .leftside span { 
-  font-family:  'bath' !important;
+  font-family:  'New' !important;
   font-weight: bolder;  
 } 
 

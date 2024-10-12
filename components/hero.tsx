@@ -98,19 +98,19 @@ function HeroNext() {
           data-tilt-speed="1000"
           data-tilt-perspective="500"
         >
-          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[35px]  !font-extrabold text-[8.5vw] leftside absolute max-lg:top-[25%] z-20 ">
+          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[35px]  !font-extrabold text-[7vw] leftside absolute max-lg:top-[25%] z-20 ">
             <div className="  overflow-hidden">
-              <h1 className=" uppercase logo2">Heyy <span className=" animate-gradient tracking-[0.3px]  ">!!</span> I am <span className=" animate-gradient ">Bishal</span> 
+              <h1 className="   logo2">Heyy <span className=" animate-gradient tracking-[0.3px]  ">!!</span> I am <span className=" animate-gradient ">Bishal</span> 
               </h1> 
             </div>
             <div className=" overflow-hidden">
-              <h1 className=" uppercase drop-shadow-xl tracking-[0.3px] logo2  ">Full Stack - web devloper 
+              <h1 className="   drop-shadow-xl tracking-[0.3px] logo2  ">Full Stack - web devloper 
               </h1>
             </div>
           </div>
 
           <div className="bgimg tilt-child w-[550px]">
-            {/* <Image  className="mainimg object-cover  " src={'/newbisx.png'} alt="" width={1500} height={1200} /> */}
+            <Image  className="mainimg object-cover  " src={'/newbisx.png'} alt="" width={1500} height={1200} />
           </div>
         </div>
 

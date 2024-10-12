@@ -53,7 +53,7 @@ function Contactpage() {
 
         <div className=' rounded-3xl max-md:w-[96%] w-[71%] h-[80%] frame flex max-md:flex-col'>
         <form  onSubmit={onSubmit} className='w-1/2 h-full max-md:w-full p-10 max-md:p-5'>
-               <div className='max-md:text-4xl text-5xl font-semibold max-lg:text-5xl  '> <h1>Lets Work  </h1> <span className=' logo2'>together !!</span></div>
+               <div className='max-md:text-4xl ant text-5xl font-semibold max-lg:text-5xl  '> <h1 className=" ant">Lets Work  </h1> <span className='ant logo2'>together !!</span></div>
 
              <div className=' flex flex-col gap-4 mt-20 max-md:mt-10'>
              <input type="hidden" name="recaptcha_response" id="recaptchaResponse"/>
@@ -67,8 +67,8 @@ function Contactpage() {
             </form>
 
             <div className=' w-1/2 max-md:w-full flex items-center flex-col '>
-                <p className=' w-[70%] max-md:w-[92%] max-md:text-center max-md:text-sm text-[18px] text-gray-400 max-md:mt-14 mt-32'>  I&apos;m currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7.</p>
-                 <p className=' text-start text-gray-400 text-4xl  max-md:text-2xl mt-6'>Bhubanswer</p>
+                <p className=' w-[70%] ant max-md:w-[92%] max-md:text-center max-md:text-sm text-[18px] text-gray-400 max-md:mt-14 mt-32'>  I&apos;m currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7.</p>
+                 <p className=' ant text-start text-gray-400 text-4xl  max-md:text-2xl mt-6'>Bhubanswer</p>
             </div>
         </div>
     </div>

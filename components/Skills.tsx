@@ -31,13 +31,9 @@ function Skil() {
   return (
     <div>
         
-        <div   ref={ref} className="skils relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319  text-[white]">
-          <h1 className=' text-center capitalize pt-6 font-bold text-[35px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
-      
-      
+        <div ref={ref} className="skils  relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319  text-[white]">
+          <h1 className=' ant text-center capitalize pt-6 font-bold text-[35px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
           <div className="skillwrapper defect1 h-[99%] w-full flex lg:items-center  justify-center ">
-
-
             <div className=' con flex flex-wrap w-full gap-8 lg:gap-14 mb-24 lg:mb-20 lg:w-[80%] justify-evenly lg:justify-center  '>
               
             <motion.div drag dragConstraints={ref} whileDrag={{scale:1.01}} className="skilsimgh inshadow shadow-2xl shadow-[black] w-[150px]  h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-2xl lg:mx-[50px] bg-[#ffffff09] border-b border-[#ffffff5c] backdrop-blur-[5px] ">
