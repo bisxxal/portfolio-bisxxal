@@ -19,11 +19,12 @@ function Footer() {
   
   useGSAP(() => {
     gsap.from(".secondftr h2", {
-      y:-1000,  
+      y:-500,  
       delay:2,
       duration:36,
       stagger:2,
       opacity:0,
+      filter: "blur(25px)",
         scrollTrigger:{
             trigger:".footer2", 
             start:"top 47%",

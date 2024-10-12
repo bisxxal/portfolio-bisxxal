@@ -1,9 +1,9 @@
 'use client'
 import React from 'react' 
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react'; 
 import img from '@/assets/images';
 import Image from 'next/image';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react'; 
 gsap.registerPlugin(useGSAP);
 function Projects() {
 
@@ -13,6 +13,7 @@ function Projects() {
       delay:2,
       duration:16,
       stagger:2,
+      filter: "blur(25px)",
       opacity:0,
         scrollTrigger:{
             trigger:".project", 

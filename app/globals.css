@@ -58,9 +58,10 @@ body {
 .inshadow{
   box-shadow: inset 0 0 10px #ffffff1c;
 }
+ 
 .frame {
-  background: #161621;
-  background: linear-gradient(179deg, #9a83d3 -15%, #080312 96%);
+    background: #161621;
+    background: linear-gradient(317deg, #9a83d3 -161%, #080312 77%);
 }
 .footer {
   background: #161621;
@@ -315,4 +316,8 @@ background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transpare
   from{
     transform: translateX(30%) translateY(-40%);
   }
+  }
+
+  .nav{
+    background: linear-gradient(317deg, #ffffff29 -15%, #080312ab 96%) !important;
   }

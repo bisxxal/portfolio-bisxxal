@@ -16,7 +16,8 @@ function Skil() {
       y:-100,  
       delay:10, 
       duration:20,
-      stagger:2,
+      stagger:3,
+      filter: "blur(25px)",
       opacity:0,
         scrollTrigger:{
             trigger:".skils", 
@@ -31,7 +32,7 @@ function Skil() {
     <div>
         
         <div   ref={ref} className="skils relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319 bg-red-600 text-[white]">
-          <h1 className=' text-center capitalize pt-6 font-bold text-[35px] p-[2vh] bg-transparent'>Things I m good at skills. </h1>
+          <h1 className=' text-center capitalize pt-6 font-bold text-[35px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
       
       
           <div className="skillwrapper defect1 h-[99%] w-full flex lg:items-center  justify-center ">

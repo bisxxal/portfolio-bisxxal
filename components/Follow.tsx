@@ -12,7 +12,9 @@ function Follow() {
       () => {
         gsap.from(".page6 div h1", {
           opacity: 0, 
-          filter: 'blur(0.9px)',
+          filter: 'blur(2px)',
+          stagger: 2,
+          delay:1,
           scrollTrigger: {
             trigger: ".page6 div h1  ",
             scrub:3, 
@@ -20,7 +22,6 @@ function Follow() {
           },
           y: 200,
           duration:1000,
-          stagger: .7,
         })
       },
       { scope: container }

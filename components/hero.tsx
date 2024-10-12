@@ -41,11 +41,11 @@ function HeroNext() {
         delay: 5.5,
       });
       t1.from(".leftside div  h1 ", {
-        y: 1000,
+        y: 500,
         opacity: 0,
+        filter: "blur(25px)",
         duration: 2,
-        delay: -1,
-
+        delay: -1, 
         stagger: 0.5,
       });
 
@@ -72,8 +72,7 @@ function HeroNext() {
     <>
       <div
         ref={container}
-        className="mainfont footer relative overflow-hidden pt-5 lg:pt-0 w-full max-md:h-[80vh] min-h-screen bg-[#000319 bg-[#080312] flex lg:flex-row flex-col justify-center items-center relative rounded-xl lg:rounded-b-3xl  "
-      >
+        className="mainfont footer relative overflow-hidden pt-5 lg:pt-0 w-full  max-md:h-[78vh] h-screen bg-[#000319 bg-[#080312] flex lg:flex-row flex-col justify-center items-center relative rounded-xl lg:rounded-b-3xl ">
         {/* <div className=" sit flex items-end justify-center sitgrd h-[310px] max-md:h max-lg:h-1/2 w-full bottom-[-0px]  absolute">
           <Image className=" w-1/4 object-cover h-[80%]" src={img.stand} alt="" />
           <Image className=" w-1/3 h-[80%] object-cover" src={img.stand} alt="" />
@@ -99,19 +98,19 @@ function HeroNext() {
           data-tilt-speed="1000"
           data-tilt-perspective="500"
         >
-          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[35px]  font-extrabold text-[8.5vw] leftside absolute max-lg:top-[25%] z-20 ">
+          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[35px]  !font-extrabold text-[8.5vw] leftside absolute max-lg:top-[25%] z-20 ">
             <div className="  overflow-hidden">
-              <h1 className=" uppercase">Heyy <span className=" animate-gradient tracking-[0.3px]  ">!!</span> I am <span className=" animate-gradient ">Bishal</span> 
+              <h1 className=" uppercase logo2">Heyy <span className=" animate-gradient tracking-[0.3px]  ">!!</span> I am <span className=" animate-gradient ">Bishal</span> 
               </h1> 
             </div>
             <div className=" overflow-hidden">
-              <h1 className=" uppercase drop-shadow-xl tracking-[0.3px]  ">Full Stack - web devloper 
-              </h1> 
+              <h1 className=" uppercase drop-shadow-xl tracking-[0.3px] logo2  ">Full Stack - web devloper 
+              </h1>
             </div>
           </div>
 
           <div className="bgimg tilt-child w-[550px]">
-            <Image  className="mainimg object-cover  " src={'/newbisx.png'} alt="" width={400} height={400} />
+            {/* <Image  className="mainimg object-cover  " src={'/newbisx.png'} alt="" width={1500} height={1200} /> */}
           </div>
         </div>
 
