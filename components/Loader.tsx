@@ -26,7 +26,7 @@ function Loader() {
           opacity:1,
           delay:0.3,
           duration:2,
-           fontSize: '700rem',
+           fontSize: '1000rem',
         });
  
         t1.to(".load", {

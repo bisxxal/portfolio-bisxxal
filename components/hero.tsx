@@ -14,9 +14,9 @@ function HeroNext() {
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll(".tilt")) as HTMLElement[];
     VanillaTilt.init(elements, {
-      max: 5,
+      max: 3,
       speed: 1000,
-      perspective: 800,
+      perspective: 1000,
       "max-glare": 0.5,
       easing: "cubic-bezier(.03,.98,.52,.99)",
     });
@@ -98,7 +98,7 @@ function HeroNext() {
           data-tilt-speed="1000"
           data-tilt-perspective="500"
         >
-          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[35px]  !font-extrabold text-[7vw] leftside absolute max-lg:top-[25%] z-20 ">
+          <div className=" text-[#ffffffc1] flex flex-col justify-center items-center text-center  max-[328px]:text-lg  max-md:text-[45px]  !font-extrabold text-[7vw] leftside absolute max-lg:top-[35%] z-20 ">
             <div className="  overflow-hidden">
               <h1 className="   logo2">Heyy <span className=" animate-gradient tracking-[0.3px]  ">!!</span> I am <span className=" animate-gradient ">Bishal</span> 
               </h1> 

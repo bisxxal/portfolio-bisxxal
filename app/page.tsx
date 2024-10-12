@@ -11,7 +11,7 @@ import Skil from "@/components/Skills";
 export default function Home() {
   return (
     <>
-    {/* <Loader /> */}
+    <Loader />
    <HeroNext />
    <Moveing/> 
    <AboutPage />

@@ -37,9 +37,9 @@ function Footer() {
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll('.tilt')) as HTMLElement[];
     VanillaTilt.init(elements, {
-      max: 5,
+      max: 3,
       speed: 1000,
-      perspective: 800,
+      perspective: 1000,
       glare: true,
       "max-glare": 0.5,
       easing: "cubic-bezier(.03,.98,.52,.99)",
