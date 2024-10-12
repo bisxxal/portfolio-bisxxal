@@ -72,7 +72,7 @@ function HeroNext() {
     <>
       <div
         ref={container}
-        className="mainfont footer relative overflow-hidden pt-5 lg:pt-0 w-full  max-md:h-[78vh] h-screen bg-[#000319 bg-[#080312] flex lg:flex-row flex-col justify-center items-center relative rounded-xl lg:rounded-b-3xl ">
+        className="mainfont footer2 relative overflow-hidden pt-5 lg:pt-0 w-full  max-md:h-[78vh] h-screen bg-[#000319 bg-[#080312] flex lg:flex-row flex-col justify-center items-center relative rounded-xl lg:rounded-b-3xl ">
         {/* <div className=" sit flex items-end justify-center sitgrd h-[310px] max-md:h max-lg:h-1/2 w-full bottom-[-0px]  absolute">
           <Image className=" w-1/4 object-cover h-[80%]" src={img.stand} alt="" />
           <Image className=" w-1/3 h-[80%] object-cover" src={img.stand} alt="" />

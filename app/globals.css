@@ -70,13 +70,12 @@ body {
   background: linear-gradient(150deg, #9a83d3 -34%, #080312 45%);
 }
 
-.footer {
+.footer {  background: #18255a;
+  background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
+}
+.footer2 {  
   background: #161621;
   background: linear-gradient(0deg, #9a83d3 -36%, #080312 64%);
-}
-.footer2 {
-  background: #18255a;
-  background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
 }
 .logo{
   background: rgb(17,17,17);

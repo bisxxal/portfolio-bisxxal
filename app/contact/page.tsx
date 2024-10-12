@@ -12,12 +12,7 @@ function Contactpage() {
         //   fontSize:'190px',
           stagger:0.1,
           opacity:0,
-            scrollTrigger:{
-                trigger:".footer2", 
-                start:"top 47%",
-                end:"top 46%",
-                scrub:3
-            }
+            
         });
       });
 
