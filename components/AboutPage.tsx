@@ -72,7 +72,7 @@ function AboutPage() {
          
           <div className=" shadow-[60px_-11px_11px_40px_#3b0ab461] max-md:shadow-[40px_-11px_21px_20px_#3b0ab461] circlemove max-sm:h-[170px]   max-sm:w-[170px]  max-lg:h-[400px] max-lg:w-[400px] h-[432px] w-[435px] absolute top-[52%] left-[26%] blur-[70px] max-md:blur-[30px] rounded-full  bg-[#7b5bc8bf] "></div>
    
-      <h1 className="me max-md:text-6xl max-sm:text-5xl text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
+      <h1 className="me max-md:text-6xl !max-[385px]:text-3xl text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
       <div className="dev text-[#ffffffc7] max-lg:text-3xl max-md:text-xl max-md:-mt-24 -mt-20 text-center text-[40px] leading-[45px] text-4x w-[85%] h-full flex flex-col items-center justify-center mx-auto font-bold">
      <h1> I M A FULL-STACK DEVELOPER AND DEVOPS ENGINEER. MY PASSION FOR EFFICIENT CODE, OPTIMIZED SYSTEMS, AND SCALABLE ARCHITECTURES DRIVES MY WORK.</h1> 
         <p className="devp max-md:text-base text-2xl text-gray-400 max-md:pt-8 pt-16 italic max-lg:text-xl">

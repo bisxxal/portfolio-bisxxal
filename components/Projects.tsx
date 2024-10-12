@@ -26,7 +26,7 @@ function Projects() {
 
   return (
     <>
-    <div className='w-full footer project overflow-hidden h-[70vh] lg:h-screen  bg-transparent z-[2]  '>
+    <div className='w-full proj  project overflow-hidden h-[70vh] lg:h-screen  bg-transparent z-[2]  '>
         <div className="page7 relative h-[70vh] lg:h-screen flex items-center flex-col bg-[#7E8389 ">
           <div className="pg7div">
             <h1 className='logo2 absolute leading-none  max-md:top-1/4 text-[#ffffff66]  w-full left-0 lg:left-[46px] font-bold lg:text-[290px] text-[100px] mt-10  '>

@@ -28,7 +28,7 @@ function Follow() {
   );
   return (
  
-           <div ref={container} className="page6  lg:h-[105vh] h-[70vh] w-full flex flex-col ">
+           <div ref={container} className="page6 max-md:h-[60vh] lg:h-[105vh] h-[70vh] w-full flex flex-col ">
           <div className="cusor z-[9] absolute rounded-full flex items-center justify-center font-[18px] opacity-0 h-[50px] w-[50px] bg-[#00bbd4b0] ">hiii</div>
           <div className="textpartpage6 capitalize overflow-hidden h-full flex flex-col items-center justify-center font-bold ">
 

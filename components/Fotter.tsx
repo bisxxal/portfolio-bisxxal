@@ -26,7 +26,7 @@ function Footer() {
       opacity:0,
       filter: "blur(25px)",
         scrollTrigger:{
-            trigger:".footer2", 
+            trigger:".footer", 
             start:"top 47%",
             end:"top 46%",
             scrub:3
@@ -55,7 +55,7 @@ function Footer() {
   }, []);
  
   return (
-    <div  ref={container} className=' footer2 bg-[#121925 w-full overflow-hidden footer flex flex-col justify-around h-[78vh] lg:h-screen '>
+    <div  ref={container} className=' footer bg-[#121925 w-full overflow-hidden footer flex flex-col justify-around h-[78vh] lg:h-screen '>
       <div className=" flex flex-col justify-center items-center    text-center font-bold ">
         <Link href={'/contact'} className= 'secondftr text-[110px] opacity-100 flex  overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
           <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2>

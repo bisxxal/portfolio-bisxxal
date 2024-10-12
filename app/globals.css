@@ -63,6 +63,13 @@ body {
     background: #161621;
     background: linear-gradient(317deg, #9a83d3 -161%, #080312 77%);
 }
+
+.proj {
+  background: #161621;
+  background: linear-gradient(135deg, #9a83d3 -161%, #080312 77%);
+  background: linear-gradient(150deg, #9a83d3 -34%, #080312 45%);
+}
+
 .footer {
   background: #161621;
   background: linear-gradient(0deg, #9a83d3 -36%, #080312 64%);

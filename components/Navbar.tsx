@@ -32,7 +32,7 @@ function Navbar() {
   
   return (
     <div className="nav inshadow h-[60px] w-0 top-5 flex fixed items-center px-4 max-lg:pl-4 pl-7 z-[90] rounded-full   bg-[#ffffff09]  backdrop-blur-lg justify-between">
-      <Link href={'/'} className="logo3 pr-1 max-lg:pt-2 max-[328px]:text-lg leading-none max-lg:text-[24px] flex items-center text-[34px] lowercase">
+      <Link href={'/'} className="logo3 pr-1 max-[328px]:text-lg leading-none max-lg:text-[24px] flex items-center text-[34px] lowercase">
         <h2 className='animate-gradient'>B</h2><h2 className=" logo2">I</h2><h2 className=" logo2">S</h2><h2 className=" logo2">H</h2><h2 className=" logo2">A</h2><h2 className=" logo2">L</h2><h2 className=" logo2">.</h2> 
       </Link> 
       <div className="rnav">
