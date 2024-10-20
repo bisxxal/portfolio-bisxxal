@@ -11,7 +11,9 @@ function Navbar() {
 
     tl.fromTo(".nav",
       { width: 0, left: '50%', x: '-50%' },   
-      { width: '90%', left: '50%', x: '-50%', delay: 5.5 , duration: 1 }  
+      { width: '90%', left: '50%', x: '-50%',
+         delay: 4.2 ,
+          duration: 1 }  
     )
     .from(".logo3 h2", {
       y: -100,
@@ -25,9 +27,7 @@ function Navbar() {
       opacity: 0,
       duration: 0.8,
       filter: 'blur(5px)',
-    }, "-=1")
-    ;
-     
+    }, "-=1");
   }, []);
   
   return (
@@ -47,3 +47,4 @@ function Navbar() {
 }
 
 export default Navbar;
+ 

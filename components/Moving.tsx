@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 function Moveing() {
     const container =  useRef<HTMLDivElement>(null);
-    useGSAP(
+    useGSAP( 
         () => {
           gsap.to(".movindtextdiv h1", {
             transform: "translateX(calc(-100% - 2vw - 4px))",

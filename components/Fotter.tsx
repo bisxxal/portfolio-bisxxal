@@ -61,7 +61,7 @@ function Footer() {
           <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2>
           <h2>C</h2><h2>T</h2>
         </Link>
-        <h1 className=' w-[80%] ant whitespace-nowrap text-gray-500 lg:w-[27%] mx-auto rounded-full  text-[30px]'>
+        <h1 className=' w-[80%] ant whitespace-nowrap text-gray-500 lg:w-[27%] mx-auto rounded-full max-md:text-[20px]  text-[30px]'>
         Me,  I am avalivale for Work
         </h1>
       </div>

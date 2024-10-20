@@ -2,6 +2,8 @@
 import React from 'react' 
 import img from '@/assets/images';
 import Image from 'next/image';
+import { MdDoubleArrow } from "react-icons/md";
+ 
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'; 
 gsap.registerPlugin(useGSAP);
@@ -34,14 +36,14 @@ function Projects() {
 
           </div>
           <div className="myworkdiv max-lg:flex-co h-[700px] lg:h-[85vh] mt-[20px] flex items-center gap-2 lg:gap-4  justify-center rounded- overflow-hidden z-[2]">
-            <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w1} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w2} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w3} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w4} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px] hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border border-[#ffffff8c] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w5} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w1} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w2} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w3} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w4} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w5} alt=""/>
           </div>
           <a  className=' z-10' target='_blank' href='https://github.com/bisxxal'> 
-          <h1 className='ant logo text-[40px] font-bold pb-10 text-gray-400 ' >See all my works </h1>
+          <h1 className='ant logo text-[40px] max-md:text-[30px] font-bold pb-10 text-gray-400 flex items-center justify-center gap-4 ' >See all my works <MdDoubleArrow className=' animate-ping duration-300 text-gray-400' /> </h1>
           </a>
           
         </div>

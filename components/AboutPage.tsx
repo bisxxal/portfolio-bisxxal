@@ -24,7 +24,7 @@ function AboutPage() {
         }
     });
     t1.from(".dev h1", {
-      // x:-300,  
+      // x:-300
       delay:2,
       duration:2,
       filter: "blur(25px)",
@@ -75,7 +75,7 @@ function AboutPage() {
       <h1 className="me ant max-md:text-6xl !max-[385px]:text-3xl text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
       <div className="dev ant text-[#ffffffc7] max-lg:text-3xl max-md:text-xl max-md:-mt-24 -mt-20 text-center text-[40px] leading-[45px] text-4x w-[85%] h-full flex flex-col items-center justify-center mx-auto font-bold">
      <h1 className='ant logo'> I M A FULL-STACK DEVELOPER AND DEVOPS ENGINEER. MY PASSION FOR EFFICIENT CODE, OPTIMIZED SYSTEMS, AND SCALABLE ARCHITECTURES DRIVES MY WORK.</h1> 
-        <p className="devp ant !tracking-[1px] max-md:text-base text-2xl text-gray-400 max-md:pt-8 pt-16 italic max-lg:text-xl">
+        <p className="devp ant leading-7 !tracking-[1px] max-md:text-base text-2xl text-gray-400 max-md:pt-8 pt-16 italic max-lg:text-xl">
         I’m constantly exploring the intersection of development and operations to streamline processes, automate workflows, and improve user experiences. Specializing in Next.js, React, Node.js, MongoDB, PostgreSQL, and MySQL, my focus is on building clean, maintainable, and scalable full-stack applications. I ensure that infrastructure is resilient, secure, and able to handle growth seamlessly.
         </p>
         <p className="devp2 ant max-md:text-base text-xl mx-auto w-[80%] max-md:w-[90%] text-gray-400 max-md:pt-8 pt-16 italic max-lg:text-xl">

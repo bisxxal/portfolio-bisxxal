@@ -1,15 +1,6 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-import SmoothScrolling from "@/components/Scrolling";
-import Navbar from "@/components/Navbar";
-
- 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import SmoothScrolling from "@/components/Scrolling"; 
 
 export const metadata: Metadata = {
   title: "bisxxal",
@@ -23,12 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`  ${geistMono.variable} antialiased`}
-      >
+      <body>
           <SmoothScrolling>
-            <Navbar />
-            {children}</SmoothScrolling>
+         
+              {children}
+            </SmoothScrolling>
       </body>
     </html>
   );

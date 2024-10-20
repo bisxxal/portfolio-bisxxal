@@ -32,7 +32,7 @@ function Skil() {
     <div>
         
         <div ref={ref} className="skils  relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319  text-[white]">
-          <h1 className=' ant text-center capitalize pt-6 font-bold text-[35px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
+          <h1 className=' ant text-center capitalize pt-6 font-bold text-[35px] max-md:text-[25px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
           <div className="skillwrapper defect1 h-[99%] w-full flex lg:items-center  justify-center ">
             <div className=' con flex flex-wrap w-full gap-8 lg:gap-14 mb-24 lg:mb-20 lg:w-[80%] justify-evenly lg:justify-center  '>
               
