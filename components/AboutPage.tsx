@@ -1,4 +1,4 @@
-//@ts-nocheck
+ 
 "use client";
 
 import gsap from 'gsap';
@@ -9,6 +9,21 @@ function AboutPage() {
 
   useGSAP(() => {
     var t1 = gsap.timeline();
+    t1.from(".circlemove", {
+      y:-100,  
+      x:200,
+      delay:2,
+      duration:6,
+      filter: "blur(55px)",
+      stagger:2,
+      opacity:0,
+        scrollTrigger:{
+            trigger:".abtpg", 
+            start:"top 47%",
+            end:"top 56%",
+            scrub:3, 
+        }
+    });
     t1.from(".me", {
       y:-100,  
       delay:2,
@@ -70,7 +85,7 @@ function AboutPage() {
   return (
     <div className="abtpg relative  max-md:overflow-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
          
-          <div className=" shadow-[60px_-11px_11px_40px_#3b0ab461] max-md:shadow-[40px_-11px_21px_20px_#3b0ab461] circlemove max-sm:h-[170px]   max-sm:w-[170px]  max-lg:h-[400px] max-lg:w-[400px] h-[432px] w-[435px] absolute top-[52%] max-md:top-[38%] left-[26%] blur-[70px] max-md:blur-[30px] rounded-full  bg-[#7b5bc8bf] "></div>
+          <div className=" shadow-[60px_-11px_11px_40px_#3b0ab461] max-md:shadow-[40px_-11px_21px_40px_#3b0ab461] circlemove max-sm:h-[270px]   max-sm:w-[270px]  max-lg:h-[400px] max-lg:w-[400px] h-[432px] w-[435px] absolute top-[52%] max-md:top-[38%] max-md:left-[10%] left-[26%] blur-[70px] max-md:blur-[30px] rounded-full  bg-[#7b5bc8bf] "></div>
    
       <h1 className="me ant max-md:text-6xl !max-[385px]:text-3xl text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
       <div className="dev ant text-[#ffffffc7] max-lg:text-3xl max-md:text-xl max-md:-mt-24 -mt-20 text-center text-[40px] leading-[45px] text-4x w-[85%] h-full flex flex-col items-center justify-center mx-auto font-bold">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScrolling from "@/components/Scrolling"; 
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "bisxxal",
@@ -18,6 +19,7 @@ export default function RootLayout({
           <SmoothScrolling>
          
               {children}
+              <Toaster />
             </SmoothScrolling>
       </body>
     </html>

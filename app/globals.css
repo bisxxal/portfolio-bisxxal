@@ -25,19 +25,10 @@
   font-style: normal;
   font-display: swap; 
 }
-@font-face {
-  font-family: 'bath';
-  src: url('/fonts/InstrumentSans_Condensed-Bold-BF645daa0ed1757.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .ant{
   font-family: 'New' !important; 
 }
-.leftside h1,
-.leftside span { 
+.leftside h1,.leftside span { 
   font-family:  'New' !important;
   font-weight: bolder;  
 } 
@@ -55,11 +46,19 @@ html,body {
 body {
   position: relative;
   color: white !important;
-  background-color: #080312;
+  background-color: #080311;
 }
 .inshadow{
   box-shadow: inset 0 0 10px #ffffff1c;
 }
+.inshadow2{
+  box-shadow: inset 0 0 30px #ffffff57;
+}
+ 
+.inshadow2hover:hover{
+  box-shadow: inset 0 0 55px #ffffff57;
+}
+ 
  
 .frame {
     background: #161621;
@@ -82,6 +81,13 @@ body {
 .logo{
   background: rgb(17,17,17);
   background:linear-gradient(179deg, #ffffff -22%, #080312 98%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.logo3{
+  background: rgb(17,17,17);
+  background: linear-gradient(179deg, #ffffff 17%, #8268b7 70%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -147,7 +153,7 @@ box-shadow: 0px -1px 31px -2px #6a9fee;
  
 }  
 .animate-gradient {
-  background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transparent 50%), radial-gradient(at 36% 52%, hsla(211,68%,60%,1) 0px, transparent 50%), radial-gradient(at 27% 14%, hsla(156,74%,75%,1) 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);
+  background-image: radial-gradient(at 71% 98%, #8184ea 0px, transparent 50%), radial-gradient(at 36% 52%, #5497de 0px, transparent 50%), radial-gradient(at 27% 14%, #90eec9 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -238,14 +244,10 @@ box-shadow: 0px -1px 31px -2px #6a9fee;
 }
 
 @keyframes effect {
-
   0% {
     transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  }100% {
+    transform: rotate(360deg);}
 }
 
 
@@ -277,26 +279,23 @@ box-shadow: 0px -1px 31px -2px #6a9fee;
 }
 
 .skils {   
-background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transparent 50%), radial-gradient(at 36% 52%, hsla(211,68%,60%,1) 0px, transparent 50%), radial-gradient(at 27% 14%, hsla(156,74%,75%,1) 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);   background-size: 200% 200%;
+background-image: radial-gradient(at 71% 98%, #8184ea 0px, transparent 50%), 
+radial-gradient(at 36% 52%, #5497de 0px, transparent 50%),
+ radial-gradient(at 27% 14%, #90eec9 0px, transparent 50%), 
+ radial-gradient(at 89% 2%, #c94af7 0px, transparent 50%), 
+ radial-gradient(at 29% 65%, #b791fd 0px, transparent 50%), 
+ radial-gradient(at 24% 34%, #5897e9 0px, transparent 50%),
+ radial-gradient(at 94% 18%, #b172e4 0px, transparent 50%);  
+ background-size: 200% 200%;
   animation: gradientMove 5s linear alternate-reverse infinite;
 }
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+@keyframes gradientMove {0% {background-position: 0% 50%;}50% {background-position: 100% 50%;}100% {background-position: 0% 50%;}}
 .skilsimgh {
   background: linear-gradient(0deg, #ffffff30 5%, rgba(0, 0, 0, 0) 58%);
 }
-.page6 button {
+/* .page6 button {
   box-shadow: 0px -1px 31px -2px rgb(0, 255, 0);
-}
+} */
 .page7 div {
   background-color: transparent;
 }
@@ -317,19 +316,20 @@ background-image: radial-gradient(at 71% 98%, hsla(238,71%,71%,1) 0px, transpare
 .circlemove { 
   animation: cirmove 4s infinite alternate-reverse ease-in-out;
 }
-@keyframes cirmove {
-  to{
-    transform: translateX(0) ;
-  }
-  from{
-    transform: translateX(30%) translateY(-40%);
-  }
-  }
+@keyframes cirmove {to{ transform: translateX(0) ; }from{ transform: translateX(30%) translateY(-40%); }  }
 
-  .nav{
-    background: linear-gradient(317deg, #ffffff29 -15%, #080312ab 96%) !important;
-  }
 
+.nav{background: linear-gradient(317deg, #ffffff29 -15%, #080312ab 96%) !important;} 
+
+.retrohover:hover {
+    background: #161621;
+    background: linear-gradient(0deg, #9a83d3 -3%, #08031200 49%) !important;
+}
+ 
+.retro {
+  background: #161621;
+  background: linear-gradient(0deg, #9a83d3 -23%, #08031200 37%);
+}
   @layer base {
   :root {
     --background: 0 0% 100%;

@@ -37,7 +37,7 @@ function Follow() {
             <div className='  overflow-hidden  lg:h-[150px] h-0px] text-center '><h1 className=" text-[#ffffff91] logo bg-transparent leading-none lg:text-[150px] text-[50px] secondh2"> touch with me <a className=' maill !transition-all hover:font-extrabold ' href="mailto:bishalkandi859494@gmail.com" target="_blank">Mail</a></h1></div>
             <div className=' bg-red- overflow-hidden  lg:h-[160px] h-[70px] '><h1 className=' text-[#ffffff91] logo bg-transparent leading-none lg:text-[150px] text-[50px] '>or <a href="https://instagram.com/bisxxal?igshid=OGQ5ZDc2ODk2ZA==" className="inns !transition-all hover:font-extrabold"  target="_blank">Instagram</a> </h1></div>
          
-  <RainbowButton className=' inshadow px-10 !bg-transparent'>Say hii</RainbowButton>
+  <RainbowButton className=' inshadow rounded-full font-semibold  px-10 !bg-transparent '>Say hii</RainbowButton>
           </div>
 
         

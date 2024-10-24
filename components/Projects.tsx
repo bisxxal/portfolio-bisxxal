@@ -37,8 +37,8 @@ function Projects() {
           </div>
           <div className="myworkdiv max-lg:flex-co h-[700px] lg:h-[85vh] mt-[20px] flex items-center gap-2 lg:gap-4  justify-center rounded- overflow-hidden z-[2]">
             <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w1} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w2} alt=""/>
-            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w3} alt=""/>
+            {/* <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w2} alt=""/>
+            <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[55%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w3} alt=""/> */}
             <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w4} alt=""/>
             <Image loading="lazy" className=' inshadow blur-[2px hover:blur-none hover:opacity-[1] rounded-xl h-[57%] object-cover w-[10vw] border-2 border-[#ffffff31] hover:w-[60%] hover:rounded-3xl lg:hover:w-[59%] hover:h-[30%] lg:hover:h-[60%]' src={img.w5} alt=""/>
           </div>

@@ -14,13 +14,13 @@ export default function Home() {
     <>
     <Loader />
     <Navbar />
-    {/* <AnimatedGridPatternDemo /> */}
    <HeroNext />
    <Moveing/> 
    <AboutPage />
    <Follow/>
    <Skil />
-   <Projects/>
+    <AnimatedGridPatternDemo />
+   {/* <Projects/> */}
    <Footer/>
     </>
   );
