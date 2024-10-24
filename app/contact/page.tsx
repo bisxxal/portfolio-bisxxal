@@ -45,7 +45,7 @@ function Contactpage() {
 
   return (
     <>
-    <Navbar />
+    <Navbar delay={0} />
     <div className=' w-full min-h-screen mt-20 flex-col flex items-center justify-center'>
 
 <div className= 'secondftr text-[60px] opacity-100 flex font-bold overflow-hidden max-md:text-[80px] lg:text-[120px] leading-none'>

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     <Loader />
-    <Navbar />
+    <Navbar delay={4.2} />
    <HeroNext />
    <Moveing/> 
    <AboutPage />

@@ -4,7 +4,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import Link from "next/link";
 
-function Navbar() {
+function Navbar({delay}:any) {
   useGSAP(() => { 
 
     const tl = gsap.timeline();
@@ -12,7 +12,7 @@ function Navbar() {
     tl.fromTo(".nav",
       { width: 0, left: '50%', x: '-50%' },   
       { width: '90%', left: '50%', x: '-50%',
-         delay: 4.2 ,
+         delay: delay ,
           duration: 1 }  
     )
     .from(".logo3 h2", {
