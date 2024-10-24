@@ -1,5 +1,4 @@
- 'use client'; 
-
+'use client'; 
 import { FileTextIcon } from "@radix-ui/react-icons";
 import { FaLink } from "react-icons/fa6";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
@@ -15,8 +14,8 @@ const features = [
     Icon: FileTextIcon,
     name: "Save your files",
     description: "We automatically save your files as you type.",
-    href: "#",
-    cta: "Learn more",
+    href: "https://bisxxalonelink.vercel.app/",
+    cta: "GO Live",
     className: "col-span-3 lg:col-span-1",
     background: img.w1,
     imgclass:" object-contain "
@@ -25,8 +24,8 @@ const features = [
     Icon: FaLink,
     name: "One Link",
     description: "Share you all links to everyone in one single link.",
-    href: "#",
-    cta: "Learn more",
+    href: "https://blured-ui.vercel.app/",
+    cta: "GO Live",
     className: "col-span-3 lg:col-span-2",
     background: img.w4,
     imgclass:"object-cover "
@@ -35,8 +34,8 @@ const features = [
     Icon: AiFillMerge,
     name: "Ai ticket booking",
     description: "Book your tickets with AI",
-    href: "#",
-    cta: "Learn more",
+    href: "https://yourtickets.vercel.app/",
+    cta: "GO Live",
     className: "col-span-3 lg:col-span-2",
     background: img.w6 ,
     imgclass:"object-cover "
@@ -47,7 +46,7 @@ const features = [
     description: "Track your web with SEO tracker",
     className: "col-span-3 lg:col-span-1",
     href: "#",
-    cta: "Learn more",
+    cta: "GO Live",
     background: img.w5 ,  
     imgclass:" object-cover "
   },
@@ -56,24 +55,7 @@ const features = [
  
 export function AnimatedGridPatternDemo() {
 
-  // useGSAP(() => {
-  //   gsap.from(".ant", {
-  //     y :-100,  
-  //     delay:1,
-  //     // duration:13,
-  //     stagger:2,
-  //     filter: "blur(25px)",
-  //     opacity:0,
-  //       scrollTrigger:{
-  //           trigger:".bg", 
-  //           start:"top 67%",
-  //           end:"top 56%",
-  //           scrub:3,  
-  //       }
-  //   });
-  // });
-
-
+ 
   return (
     <div className="relative   min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
 

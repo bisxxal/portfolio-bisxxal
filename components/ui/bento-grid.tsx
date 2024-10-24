@@ -66,8 +66,8 @@ const BentoCard = ({
         "pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100",
       )}
       >
-      <button   className="pointer-events-auto">
-        <a href={href}>
+      <button   className="pointer-events-auto ">
+        <a href={href} target="_blank" className=" !flex items-center gap-1">
           {cta}
           <ArrowRightIcon className="ml-2 h-4 w-4" />
         </a>
