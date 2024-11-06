@@ -18,14 +18,12 @@ function Loader() {
         t1.to(".load h1 span", {
             x:-20,
             stagger:.3,
-            opacity:0,
-            // display:'hidden',
+            opacity:0, 
             filter: 'blur(4px)',
         });
        
  
-        t1.to(".load", {
-          // delay:-1,
+        t1.to(".load", { 
           duration:2,
           opacity:0,
           display:"none"
