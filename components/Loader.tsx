@@ -33,7 +33,7 @@ function Loader() {
       });
   return (
     <div className='load  bg-[#080312] w-full flex items-center justify-center text-white h-screen fixed top-0 left-0 z-[100]  opacity-1'>
-        <h1 className=' !text-2xl '> <span className=' opacity-0  inline-block'> &lt;</span>  <span className=' opacity-0 text-xl  inline-block'>   Just</span> <span className=' opacity-0 text-xl inline-block'>Coaded</span> <span className=' opacity-0 text-xl inline-block'> Things</span>  <span className=' opacity-0 text-xl inline-block '> / &gt;</span> </h1>
+        <h1 className='ant !text-3xl flex gap-2 items-center '> <span className='font-bold opacity-0  inline-block'> &lt;</span>  <span className='ant logo3 opacity-0 text-2xl  inline-block'>   Just</span> <span className='ant logo3 opacity-0 text-2xl inline-block'>Coaded</span> <span className= 'logo3 ant opacity-0 text-2xl inline-block'> Things</span>  <span className=' opacity-0 text-xl inline-block  font-bold'> / &gt;</span> </h1>
      
     </div>
   )

@@ -6,8 +6,7 @@ import HeroNext from "@/components/hero";
 import Loader from "@/components/Loader";
 import Moveing from "@/components/Moving";
 import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
-import Skil from "@/components/Skills"; 
+import Skil from "@/components/Skills";   
 
 export default function Home() {
   return (
@@ -15,13 +14,12 @@ export default function Home() {
     <Loader />
     <Navbar delay={4.2} />
    <HeroNext />
-   <Moveing/> 
+   <Moveing/>
    <AboutPage />
    <Follow/>
    <Skil />
     <AnimatedGridPatternDemo />
-   {/* <Projects/> */}
-   <Footer/>
+   <Footer/> 
     </>
   );
 }
