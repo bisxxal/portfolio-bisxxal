@@ -7,19 +7,16 @@ import ps from './ps.png'
 import python from './Python.png'
 import java from './java.svg'
 import html from './newhtml.png'
-import w1 from './w1.png'
-// import w2 from './w2.png'
-// import w3 from './w3.png'
+import w1 from './w1.png' 
 import w4 from './w5.png'
 import w6 from './w6.png'
-import w5 from './w5.jpg'
-// import whatsapp from './whatsapp.jpg'
+import w5 from './w5.jpg' 
 import ts from './ts.png'
 import nj from './nj.png' 
 import mysql from './mysql.png'
-import supabase from './firebase.png' 
-// import rm from './newbisx.png' 
-// import stand from './sitt2.png'
+import supabase from './firebase.png'  
+import postgress from './postgress.png'  
+import appwriter from './appwriter.png'  
 import prisma from './prisma.png'
 import react from './react.webp'
 import icon1 from './icon1.webp'
@@ -30,6 +27,6 @@ import gsap from './gsap.svg'
 
 
 const img = { html,java ,c,js,mongo,node ,ps,python ,w1,nj,
-    ts,w5 ,react,w4,icon1,icon2,icon4 ,icon3 , supabase,mysql ,gsap ,prisma , w6
+    ts,w5 ,react,w4,icon1,icon2,icon4 ,icon3 , supabase,mysql ,gsap ,prisma , w6 ,postgress,appwriter
  }
 export default img

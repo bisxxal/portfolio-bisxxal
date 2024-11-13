@@ -57,7 +57,7 @@ export function AnimatedGridPatternDemo() {
 
  
   return (
-    <div className="relative   min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
+    <div className="relative min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
 
       <div className=" bg">
 

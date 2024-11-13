@@ -74,10 +74,17 @@ body {
 .footer {  background: #18255a;
   background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
 }
-.footer2 {  
+/* .footer2 {  
   background: #161621;
   background: linear-gradient(0deg, #9a83d3 -36%, #080312 64%);
+} */
+
+.footer2 {
+  background: #161621;
+  background: linear-gradient(2deg, #9a83d3 -209%, #080312 42%);
 }
+
+
 .logo{
   background: rgb(17,17,17);
   background:linear-gradient(179deg, #ffffff -22%, #080312 98%); 
@@ -149,7 +156,7 @@ body::-webkit-scrollbar{
   }
 }
 .sad{ 
-box-shadow: 0px -1px 31px -2px #6a9fee;
+box-shadow: 0px -1px 31px -2px #5151ffde;
  
 }  
 .animate-gradient {
@@ -319,7 +326,7 @@ radial-gradient(at 36% 52%, #5497de 0px, transparent 50%),
 @keyframes cirmove {to{ transform: translateX(0) ; }from{ transform: translateX(30%) translateY(-40%); }  }
 
 
-.nav{background: linear-gradient(317deg, #ffffff29 -15%, #080312ab 96%) !important;} 
+/* .nav{background: linear-gradient(317deg, #ffffff29 -15%, #080312ab 96%) !important;}  */
 
 .retrohover:hover {
     background: #161621;
@@ -330,6 +337,28 @@ radial-gradient(at 36% 52%, #5497de 0px, transparent 50%),
   background: #161621;
   background: linear-gradient(0deg, #9a83d3 -23%, #08031200 37%);
 }
+
+
+.logof {
+  background: rgb(17, 17, 17);
+  background: linear-gradient(217deg, #ffffff 5%, #080312 105%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.logos {
+  background: rgb(17, 17, 17);
+  background: linear-gradient(113deg, #ffffff -21%, #080312 136%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.heroshadow {
+  box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;
+}
+
   @layer base {
   :root {
     --background: 0 0% 100%;

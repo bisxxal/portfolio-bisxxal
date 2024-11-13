@@ -100,6 +100,14 @@ function Skil() {
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Prisma</h1>
             </motion.div>
             <motion.div drag dragConstraints={ref} whileDrag={{scale:1.01}} className="skilsimgh inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-2xl lg:mx-[50px] bg-[#ffffff09] border-b border-[#ffffff5c] backdrop-blur-[5px]  defect1 mrg ps">
+              <Image loading="lazy"  className=' h-[68%] w-[86%] ' src={img.postgress} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>postgress</h1>
+            </motion.div>
+            <motion.div drag dragConstraints={ref} whileDrag={{scale:1.01}} className="skilsimgh inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-2xl lg:mx-[50px] bg-[#ffffff09] border-b border-[#ffffff5c] backdrop-blur-[5px]  defect1 mrg ps">
+              <Image loading="lazy"  className=' h-[58%] w-[65%] ' src={img.appwriter} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Appwrite</h1>
+            </motion.div>
+            <motion.div drag dragConstraints={ref} whileDrag={{scale:1.01}} className="skilsimgh inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-2xl lg:mx-[50px] bg-[#ffffff09] border-b border-[#ffffff5c] backdrop-blur-[5px]  defect1 mrg ps">
               <Image loading="lazy"  className=' h-[58%] w-[75%] ' src={img.gsap} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Gsap</h1>
             </motion.div>

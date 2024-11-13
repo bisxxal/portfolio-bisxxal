@@ -19,7 +19,7 @@ function HeroNext() {
         y: -400,
         x:-400,
         backgroundColor:"#2d53bc00",
-        delay: 4.2,
+        // delay: 4.2,
       });
       t1.from(".leftside div  h1 ", {
         y: 500,
