@@ -36,7 +36,7 @@ const AdvanceHero = () => {
         </div>
 
         <div className="  overflow-hidden z-10 ">
-          <h1 className="ant second  text-[25vw] leading-[350px] max-md:leading-[200px] opacity-100 font-bold overflow-hidden "> <span className="ant inline-flex logof">B</span> <span className="ant inline-flex logos">ISHAL</span>
+          <h1 className="ant second  text-[25vw] leading-[350px] max-md:leading-[200px] opacity-100 font-bold overflow-hidden "> <span className="ant inline-flex logof">B</span><span className="ant inline-flex logos">ISHAL</span>
           </h1>
         </div>
 
