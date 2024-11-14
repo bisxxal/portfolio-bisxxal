@@ -14,23 +14,23 @@ function Skil() {
   useGSAP(() => {
     gsap.from(".con div", {
       y:-100,  
-      delay:10, 
-      duration:20,
-      stagger:3,
-      filter: "blur(25px)",
+      delay:3, 
+      duration:10,
+      stagger:1,
+      // filter: "blur(4px)",
       opacity:0,
         scrollTrigger:{
             trigger:".skils", 
-            start:"top 47%",
-            end:"top 46%",
+            start:"top 37%",
+            end:"bottom 86%",
             scrub:3,
-            pin:true
+            // markers:true,
+            // pin:true
         }
     });
   });
   return (
     <div>
-        
         <div ref={ref} className="skils  relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319  text-[white]">
           <h1 className=' ant text-center capitalize pt-6 font-bold text-[35px] max-md:text-[25px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
           <div className="skillwrapper defect1 h-[99%] w-full flex lg:items-center  justify-center ">
