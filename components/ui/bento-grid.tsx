@@ -51,7 +51,7 @@ const BentoCard = ({
       className,
     )}
   > 
-    <div className=" absolute inshadow2 inshadow2hover  retro retrohover h-full !bg-red-40  flex items-end w-full bottom-0 !text-white">
+    <div className=" absolute inshado nshadow2hover  retro retrohover h-full !bg-red-40  flex items-end w-full bottom-0 !text-white">
 
     <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
       <Icon className="h-12 w-12 origin-left transform-gpu  transition-all duration-300 ease-in-out group-hover:scale-75" />

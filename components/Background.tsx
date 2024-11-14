@@ -1,5 +1,4 @@
-'use client'; 
-import { FileTextIcon } from "@radix-ui/react-icons";
+'use client';
 import { FaLink } from "react-icons/fa6";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { IoAnalyticsOutline } from "react-icons/io5";
@@ -7,28 +6,29 @@ import { AiFillMerge } from "react-icons/ai";
 import img from '@/assets/images';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'; 
+import { FaLaptopCode } from "react-icons/fa"; 
 gsap.registerPlugin(useGSAP);
  
 const features = [
   {
-    Icon: FileTextIcon,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
+    Icon: FaLink,
+    name: "One Link",
+    description: "Share you all links to everyone in one single link.",
     href: "https://bisxxalonelink.vercel.app/",
     cta: "GO Live",
     className: "col-span-3 lg:col-span-1",
     background: img.w1,
-    imgclass:" object-contain "
+    imgclass:" object-contain  "
   },
   {
-    Icon: FaLink,
-    name: "One Link",
-    description: "Share you all links to everyone in one single link.",
+    Icon: FaLaptopCode,
+    name: "Blured UI",
+    description: "UI components builder for developers",
     href: "https://blured-ui.vercel.app/",
     cta: "GO Live",
     className: "col-span-3 lg:col-span-2",
     background: img.w4,
-    imgclass:"object-cover "
+    imgclass:"object-cover max-md:object-contain "
   },
   {
     Icon: AiFillMerge,
@@ -57,7 +57,7 @@ export function AnimatedGridPatternDemo() {
 
  
   return (
-    <div className="relative min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
+    <div className="relative   min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
 
       <div className=" bg">
 

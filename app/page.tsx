@@ -12,7 +12,7 @@ import Skil from "@/components/Skills";
 export default function Home() {
   return (
     <>
-    <Loader />
+    <Loader /> 
     <Navbar delay={4.2} />
    {/* <HeroNext /> */}
    <AdvanceHero />

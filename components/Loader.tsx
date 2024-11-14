@@ -1,4 +1,3 @@
- 
 'use client'
 import React from 'react'
 import gsap from 'gsap';
@@ -22,9 +21,7 @@ function Loader() {
             opacity:0, 
             filter: 'blur(4px)',
         });
-       
- 
-        t1.to(".load", { 
+        t1.to(".load", {
           duration:2,
           opacity:0,
           display:"none"
