@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import Image from "next/image";
+import Meteors from "./ui/meteors";
 const AdvanceHero = () => {
   const container = useRef<HTMLDivElement | null>(null);
   useGSAP(() => {
@@ -32,11 +33,19 @@ const AdvanceHero = () => {
   );
 
   return (
-    <div ref={container} className=" w-full overflow-hidden  h-screen max-md:h-[80vh] max-md:flex items-end ">
+    <div ref={container} className=" w-full overflow-hidden relative  h-screen max-md:h-[80vh] max-md:flex items-end ">
+    
+
+    <div className=" absolute top-0 max-md:-left-16 -left-20 flex h-[500px] w-[110%] flex-col items-center justify-center overflow-hidden bg-transparent">
+      <Meteors number={40} />
+      
+    </div>
+
+    
       <div className="ant lll relative w-full h-full max-md:h-[96%] flex flex-col items-center justify-center overflow-hidden ">
         <div className=" overflow-hidden flex items-center gap-3">
           <h1 className="ant text-2xl text-zinc-400 overflow-hidden max-md:mr-24 relative">Hey, i am</h1> 
-          <Image className="img opacity-0 object-cover object-top hover:shadow-[0px_1px_50px_-2px_#4948e1] shadow-[#4948e1]  h-14 w-32 max-md:right-14 max-md:hover:right-10 right-[37%] hover:right-[35%] transition-all duration-700 hover:rounded-full rounded-[30px] hover:h-24 absolute hover:w-52  " src={'/bisxxal2.jpg'} height={200} width={200} alt='' />
+          <Image className="img opacity-0 object-cover object-top hover:shadow-[0px_1px_50px_-2px_#4948e1] shadow-[#4948e1]  h-12 w-28 max-md:right-14 max-md:hover:right-10 right-[38%] hover:right-[35%] transition-all duration-700 hover:rounded-full rounded-[30px] hover:h-24 absolute hover:w-52  " src={'/bisxxal2.jpg'} height={200} width={200} alt='' />
         </div>
 
         <div className="  overflow-hidden  z-10 ">
