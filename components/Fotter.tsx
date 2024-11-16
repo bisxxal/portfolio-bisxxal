@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";  
 import Link from 'next/link';
+import Particles from './ui/particles';
 gsap.registerPlugin(ScrollTrigger);
 
 function Footer() {
@@ -55,7 +56,14 @@ function Footer() {
   }, []);
  
   return (
-    <div  ref={container} className=' footer2 footer  w-full overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
+    <div  ref={container} className=' footer2 footer relative  w-full overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
+         <Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        color={'#ffffff'}
+        refresh
+      />
       <div className=" flex flex-col justify-center items-center    text-center font-bold ">
         <Link href={'/contact'} className= 'secondftr text-[110px] opacity-100 flex  overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
           <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2>

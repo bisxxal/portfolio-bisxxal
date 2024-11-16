@@ -7,6 +7,7 @@ import img from '@/assets/images';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'; 
 import { FaLaptopCode } from "react-icons/fa"; 
+import Particles from "./ui/particles";
 gsap.registerPlugin(useGSAP);
  
 const features = [
@@ -57,15 +58,21 @@ export function AnimatedGridPatternDemo() {
 
  
   return (
-    <div className="relative   min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl">
+    <div className="relative  min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl ">
+
+<Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        color={'#ffffff'}
+        refresh
+      />
 
       <div className=" bg">
 
      <h1 className="me ant max-md:text-4xl mb-5  !max-[385px]:text-3xl text-5xl font-extrabold text-center logo2">Top-Projects </h1>  
       </div>
 
-     {/* <div className="bg "> <h1 className='logo ant text-center max-md:text-4xl mb-5  !max-[385px]:text-3xl text-5xl font-extrabold  '>My Work Samples</h1></div> */}
-   
      <div className=" w-full flex  items-center justify-center overflow-hidden rounded-lg ">
 
      <BentoGrid>

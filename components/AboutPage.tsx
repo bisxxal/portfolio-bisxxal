@@ -3,6 +3,7 @@
 
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'; 
+import Particles from './ui/particles';
 gsap.registerPlugin(useGSAP);
 
 function AboutPage() {
@@ -84,7 +85,14 @@ function AboutPage() {
 
   return (
     <div className="abtpg relative  max-md:overflow-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
-         
+         <Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        color={'#ffffff'}
+        refresh
+      />
+
           <div className=" shadow-[60px_-11px_11px_40px_#3b0ab461] max-md:shadow-[40px_-11px_21px_40px_#3b0ab461] circlemove max-sm:h-[270px]   max-sm:w-[270px]  max-lg:h-[400px] max-lg:w-[400px] h-[432px] w-[435px] absolute top-[52%] max-md:top-[38%] max-md:left-[10%] left-[26%] blur-[70px] max-md:blur-[30px] rounded-full  bg-[#7b5bc8bf] "></div>
    
       <h1 className="me ant max-md:text-6xl !max-[385px]:text-3xl text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
