@@ -18,13 +18,7 @@
   font-style: normal;
   font-display: swap; 
 }
-@font-face {
-  font-family: 'bath2';
-  src: url('/fonts/bathyork-1j9qj.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; 
-}
+ 
 .ant{
   font-family: 'New' !important; 
 }
