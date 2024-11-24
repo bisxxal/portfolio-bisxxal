@@ -310,12 +310,12 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 
 .retrohover:hover {
   background: #161621;
-  background: linear-gradient(0deg, #f9f9f969 -3%, #08031200 49%) !important;
+  background: linear-gradient(0deg, #4e4e4e -3%, #08031200 49%) !important;
 }
  
 .retro {
   background: #161621;
-  background: linear-gradient(0deg, #ffffff51 -23%, #08031200 37%);
+  background: linear-gradient(0deg, #2e2e2e -23%, #08031200 37%);
 }
 
 .logof {

@@ -3,6 +3,8 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 import { cn } from "@/lib/utils";
 import Image from "next/image"; 
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const BentoGrid = ({
   children,
@@ -11,10 +13,43 @@ const BentoGrid = ({
   children: ReactNode;
   className?: string;
 }) => {
+  useGSAP(() => { 
+
+    const tl = gsap.timeline();
+
+    tl.fromTo(".pbox",
+      { width: 0, left: '50%', x: '-50%' },   
+      { width: '90%', left: '50%', x: '-50%',
+      duration: 1 ,
+      scrollTrigger:{
+        trigger:".dbox", 
+        start:"top 47%",
+            end:"top 56%",
+            scrub:3, 
+        // markers:true,
+        // pin:true
+    }
+    }  
+    )
+    // .from(".logo3 h2", {
+    //   y: -100,
+    //   opacity: 0,
+    //   stagger: 0.1,
+    //   filter: 'blur(9px)',
+    //   duration: 0.7,
+    // }, "-=0.2")
+    // .from(".rnav", { 
+    //   x: -30,
+    //   opacity: 0,
+    //   duration: 0.8,
+    //   filter: 'blur(5px)',
+    // }, "-=1");
+  }, []);
+
   return (
     <div
       className={cn(
-        "grid w-full auto-rows-[22rem] grid-cols-3 gap-4",
+        "grid w-full auto-rows-[22rem] dbox bg-red-4 grid-cols-3 gap-4",
         className,
       )}
     >
@@ -45,7 +80,7 @@ const BentoCard = ({
   <div
     key={name}
     className={cn(
-      "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-2xl ",
+      "group relative pbox col-span-3 flex flex-col justify-between overflow-hidden rounded-2xl ",
      
       "transform-gpu dark:bg-black dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]",
       className,

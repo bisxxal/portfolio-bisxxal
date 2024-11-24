@@ -12,8 +12,7 @@ function Moveing() {
         () => {
           gsap.to(".movindtextdiv h1", {
             transform: "translateX(calc(-100% - 2vw - 4px))",
-            duration: 10, // 
-            // top: '50%',
+            duration: 30, 
             ease: "slow(0.2, 0.2, false)",  
             scrollTrigger: {
                 trigger: ".movindtextdiv h1", 
