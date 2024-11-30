@@ -73,7 +73,7 @@ export function AnimatedGridPatternDemo() {
      <h1 className="me ant max-md:text-4xl mb-5  !max-[385px]:text-3xl text-5xl font-extrabold text-center logo2">Top-Projects </h1>  
       </div>
 
-     <div className=" w-full flex  items-center justify-center overflow-hidden rounded-lg ">
+     <div className=" w-full flex items-center justify-center overflow-hidden rounded-lg ">
 
      <BentoGrid>
       {features.map((feature, idx) => (

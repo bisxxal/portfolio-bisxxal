@@ -84,7 +84,7 @@ function AboutPage() {
   });
 
   return (
-    <div className="abtpg relative  max-md:overflow-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
+    <div className="abtpg relative   max-md:h-[90vh] max-md:overflow-x-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
          <Particles
         className="absolute inset-0"
         quantity={100}
