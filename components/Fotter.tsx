@@ -11,12 +11,14 @@ import { SiGmail } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";  
 import Link from 'next/link';
 import Particles from './ui/particles';
+import { MdOutlineArrowOutward } from "react-icons/md";
+import { LuDot } from "react-icons/lu";
 gsap.registerPlugin(ScrollTrigger);
 
 function Footer() {
   const container = useRef<HTMLDivElement>(null); 
-  const element = useRef<HTMLDivElement>(null);
-
+  const containers = useRef<HTMLDivElement>(null); 
+  const element = useRef<HTMLDivElement>(null); 
   
   useGSAP(() => {
     gsap.from(".secondftr h2", {
@@ -54,9 +56,51 @@ function Footer() {
       });
     };
   }, []);
+
+  useEffect(() => {
+    const currentContainer = containers.current;
+    if (!currentContainer) {
+      console.warn('Container element not found!');
+      return;
+    }
+
+    const handleMouseMove = (dets: MouseEvent) => {
+      gsap.to(".cursor", {
+        x: dets.clientX + "px",
+        y: dets.clientY + "px",
+        ease: "power1.out",
+        duration: 0.2,
+      });
+    };
+
+    const handleMouseEnter = () => {
+      gsap.to(".cursor", {
+        scale: 1,
+        opacity: 1,
+      });
+    };
+
+    const handleMouseLeave = () => {
+      gsap.to(".cursor", {
+        scale: 0,
+        opacity: 0,
+      });
+    };
+
+    currentContainer.addEventListener("mousemove", handleMouseMove);
+    currentContainer.addEventListener("mouseenter", handleMouseEnter);
+    currentContainer.addEventListener("mouseleave", handleMouseLeave);
+
+    return () => {
+      currentContainer.removeEventListener("mousemove", handleMouseMove);
+      currentContainer.removeEventListener("mouseenter", handleMouseEnter);
+      currentContainer.removeEventListener("mouseleave", handleMouseLeave);
+    };
+  }, []);
+
  
   return (
-    <div  ref={container} className=' footer2 footer relative  w-full overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
+    <div  ref={container} className=' footer2 footer relative  w-full !overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
          <Particles
         className="absolute inset-0"
         quantity={100}
@@ -64,8 +108,11 @@ function Footer() {
         color={'#ffffff'}
         refresh
       />
-      <div className=" flex flex-col justify-center items-center    text-center font-bold ">
-        <Link href={'/contact'} className= 'secondftr text-[110px] opacity-100 flex  overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
+      <div ref={containers} className="dbox flex flex-col relative  justify-center items-center group text-center font-bold ">
+ 
+         <div className='max-md:hidden group-hover:opacity-[1] cursor flex items-center !font-medium justify-between px-2 rounded-full z-10 opacity-0 border-2 border-[#ffffff15] backdrop-blur bg-[#ffffff3a] !h-10 !w-64   text-base '> <Link href={'/contact'} className=' flex items-center'> <LuDot className=' animate-pulse' size={50} /> Go to contact page </Link><MdOutlineArrowOutward className=' duration-1000 animate-bounce' size={26} /> </div>
+         
+        <Link href={'/contact'} className= 'secondftr  text-[110px] opacity-100 !flex overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
           <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2>
           <h2>C</h2><h2>T</h2>
         </Link>
