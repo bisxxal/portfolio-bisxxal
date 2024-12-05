@@ -110,7 +110,9 @@ function Footer() {
       />
       <div ref={containers} className="dbox flex flex-col relative  justify-center items-center group text-center font-bold ">
  
-         <div className='max-md:hidden group-hover:opacity-[1] cursor flex items-center !font-medium justify-between px-2 rounded-full z-10 opacity-0 border-2 border-[#ffffff15] backdrop-blur bg-[#ffffff3a] !h-10 !w-64   text-base '> <Link href={'/contact'} className=' flex items-center'> <LuDot className=' animate-pulse' size={50} /> Go to contact page </Link><MdOutlineArrowOutward className=' duration-1000 animate-bounce' size={26} /> </div>
+         <div className='max-md:hidden whitespace-nowrap group-hover:opacity-[1] cursor flex !items-center !font-medium  gap-1 -pl-3 justify-center rounded-full z-10 opacity-0 border-2 border-[#ffffff15] backdrop-blur bg-[#ffffff3a] !h-10 !w-64   text-base '> 
+          <Link href={'/contact'} className=' flex items-center justify-center'>
+         <LuDot className=' animate-pulse' size={35} /> Go to contact page </Link><MdOutlineArrowOutward className=' duration-1000 animate-bounce !text-3xl'   /> </div>
          
         <Link href={'/contact'} className= 'secondftr  text-[110px] opacity-100 !flex overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
           <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2>
