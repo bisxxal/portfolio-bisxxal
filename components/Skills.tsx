@@ -127,9 +127,18 @@ function Skil() {
               <Image loading="lazy"  className=' h-[58%] w-[85%] ' src={img.html} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Html css</h1>
             </div>
+
+            <div className="skilsimgh border-2 border-[#ffffff1b] frame inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] bg-[#ffffff09]  backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className=' h-[58%] w-[61%] ' src={img.quary} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>tanstack query </h1>
+            </div>
+            <div className="skilsimgh border-2 border-[#ffffff1b] frame inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] bg-[#ffffff09]  backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className=' h-[58%] w-[85%] ' src={img.redit} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>redis</h1>
             </div>
 
 
+            </div>
           </div>
             
         </div>

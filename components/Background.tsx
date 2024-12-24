@@ -68,7 +68,7 @@ export function AnimatedGridPatternDemo() {
         refresh
       />
 
-      <div className=" bg">
+      <div className="  bg">
 
      <h1 className="me ant max-md:text-4xl mb-5  !max-[385px]:text-3xl text-5xl font-extrabold text-center logo2">Top-Projects </h1>  
       </div>

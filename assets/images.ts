@@ -1,4 +1,3 @@
-// import reactimg from './react.png'
 import c from './c.png'
 import mongo from './mongo.png'
 import js from './js.png'
@@ -24,9 +23,11 @@ import icon2 from './icon2.webp'
 import icon3 from './icon3.webp'
 import icon4 from './icon4.webp' 
 import gsap from './gsap.svg' 
+import quary from './quary.png'
+import redit from './redit.png'
 
 
-const img = { html,java ,c,js,mongo,node ,ps,python ,w1,nj,
+const img = { html,java ,c,js,mongo,node ,ps,python ,w1,nj,redit , quary,
     ts,w5 ,react,w4,icon1,icon2,icon4 ,icon3 , supabase,mysql ,gsap ,prisma , w6 ,postgress,appwriter
  }
 export default img
