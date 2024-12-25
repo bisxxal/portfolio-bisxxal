@@ -9,7 +9,6 @@ const AdvanceHero = () => {
   useGSAP(() => {
       var t1 = gsap.timeline();
       t1.from(".globe", {
-        // filter: "blur(15px)",
         opacity: 0,
         duration: 1.4,
         y: 400,
@@ -34,14 +33,9 @@ const AdvanceHero = () => {
 
   return (
     <div ref={container} className=" w-full overflow-hidden relative  h-screen max-md:h-[80vh] max-md:flex items-end ">
-    
-
     <div className=" absolute top-0 max-md:-left-16 -left-20 flex h-[500px] w-[110%] flex-col items-center justify-center overflow-hidden bg-transparent">
       <Meteors number={40} />
-      
-    </div>
-
-    
+    </div>    
       <div className="ant lll relative w-full h-full max-md:h-[96%] flex flex-col items-center justify-center overflow-hidden ">
         <div className=" overflow-hidden flex items-center gap-3">
           <h1 className="ant text-2xl text-zinc-400 overflow-hidden max-md:mr-24 relative">Hey, i am</h1> 

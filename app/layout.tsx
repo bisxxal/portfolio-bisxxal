@@ -24,10 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",    
     creator: "@bisxxal",
   },
-
-
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{

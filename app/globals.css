@@ -52,13 +52,10 @@ body {
 .inshadow2hover:hover{
   box-shadow: inset 0 0 55px #ffffff57;
 }
- 
- 
 .frame {
     background: #161621;
     background: linear-gradient(317deg, #9a83d3 -161%, #080312 77%);
 }
-
 .proj {
   background: #161621;
   background: linear-gradient(135deg, #9a83d3 -161%, #080312 77%);
@@ -67,17 +64,11 @@ body {
 
 .footer {  background: #18255a;
   background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
-}
-/* .footer2 {  
-  background: #161621;
-  background: linear-gradient(0deg, #9a83d3 -36%, #080312 64%);
-} */
-
+} 
 .footer2 {
   background: #161621;
   background: linear-gradient(2deg, #9a83d3 -209%, #080312 42%);
 }
-
 
 .logo{
   background: rgb(17,17,17);
@@ -250,8 +241,6 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   }100% {
     transform: rotate(360deg);}
 }
-
-
 .mainimg ,.icon{
   animation: imgani 1s linear alternate-reverse infinite;
   filter:contrast(1.19) drop-shadow(-10px 4px 12px #000000a7);
@@ -278,12 +267,10 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   z-index: 20;
   background: linear-gradient(76deg, #121925 0%, rgba(255, 255, 255, 0) 123%);
 }
- 
 .skilsimgh {
-    box-shadow: inset 0 0 83px #9551ff1c;
-    
-    background: #161621;
-    background: linear-gradient(317deg, #9a83d3 -345%, #080312 89%);
+  box-shadow: inset 0 0 83px #9551ff1c;
+  background: #161621;
+  background: linear-gradient(317deg, #3352cc -345%, #8888881c 89%);
 }
 
 .page7 div {
@@ -350,6 +337,18 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   background: rgba(2, 0, 36, 0);
   background: radial-gradient(circle, #56408ea1 0%, #341f6582 1%, #00d5ff00 66%); 
 }
+
+ 
+.textbase{
+  color: #3352cc;
+}
+.buttonbg{
+  @apply bg-gradient-to-br text-white  from-[#3352CC] to-[#1C2D70];
+}
+.raintext{
+  @apply bg-gradient-to-r from-indigo-500 text-white via-purple-500 to-pink-500 ;
+}
+ 
   @layer base {
   :root {
     --background: 0 0% 100%;

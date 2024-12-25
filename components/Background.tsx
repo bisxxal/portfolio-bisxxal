@@ -55,26 +55,13 @@ const features = [
 
  
 export function AnimatedGridPatternDemo() {
-
- 
   return (
     <div className="relative  min-h-screen bg-transparent p-20 max-md:px-5 md:shadow-xl ">
-
-<Particles
-        className="absolute inset-0"
-        quantity={100}
-        ease={80}
-        color={'#ffffff'}
-        refresh
-      />
-
+ <Particles className="absolute inset-0" quantity={100} ease={80} color={'#ffffff'} refresh />
       <div className="  bg">
-
      <h1 className="me ant max-md:text-4xl mb-5  !max-[385px]:text-3xl text-5xl font-extrabold text-center logo2">Top-Projects </h1>  
       </div>
-
      <div className=" w-full flex items-center justify-center overflow-hidden rounded-lg ">
-
      <BentoGrid>
       {features.map((feature, idx) => (
         <BentoCard key={idx} {...feature} />

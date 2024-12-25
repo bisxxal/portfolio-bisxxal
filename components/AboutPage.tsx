@@ -84,7 +84,7 @@ function AboutPage() {
   });
 
   return (
-    <div className="abtpg relative   max-md:h-[90vh] max-md:overflow-x-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
+    <div className="abtpg relative bg-red-30 max-md:h-[90vh] max-md:overflow-x-hidden h-[110vh] mt-12 max-md:mt-20 flex flex-col justify-evenly "  >
          <Particles
         className="absolute inset-0"
         quantity={100}
@@ -94,7 +94,7 @@ function AboutPage() {
       />
 
           <div className=" shadow-[60px_-11px_11px_40px_#3b0ab461] max-md:shadow-[40px_-11px_21px_40px_#3b0ab461] circlemove max-sm:h-[270px]   max-sm:w-[270px]  max-lg:h-[400px] max-lg:w-[400px] h-[432px] w-[435px] absolute top-[52%] max-md:top-[38%] max-md:left-[10%] left-[26%] blur-[70px] max-md:blur-[30px] rounded-full  bg-[#7b5bc8bf] "></div>
-      <h1 className="me ant max-md:text-6xl !max-[385px]:text-3xl max-md:mb-8 text-8xl font-extrabold text-center max-md:pt-10 logo"> About Me</h1>
+      <h1 className="me ant max-md:text-6xl !max-[385px]:text-3xl max-md:mb-14 text-8xl font-extrabold text-center max-md:pt-4 logo"> About Me</h1>
       <div className="dev ant text-[#ffffffc7] max-lg:text-3xl max-md:text-xl max-md:-mt-24 -mt-20 text-center text-[40px] leading-[45px] text-4x w-[85%] h-full flex flex-col items-center justify-center mx-auto font-bold">
      <h1 className='ant logo'> I M A FULL-STACK DEVELOPER AND DEVOPS ENGINEER. MY PASSION FOR EFFICIENT CODE, OPTIMIZED SYSTEMS, AND SCALABLE ARCHITECTURES DRIVES MY WORK.</h1> 
         <p className="devp ant leading-7 !tracking-[1px] max-md:text-base text-2xl text-gray-400 max-md:pt-8 pt-16 italic max-lg:text-xl">
@@ -104,13 +104,7 @@ function AboutPage() {
         My expertise also extends to containerization with Docker  and managing cloud-based environments for high availability and performance. I m dedicated to solving complex problems by leveraging modern web technologies and best DevOps practices.
         </p>
       </div>
-
-      {/* <button className=" mx-auto lbtn w-fit  bg-[#ffffff1a px-5 py-2 border-white border rounded-full ">
-          Dowload cv -&gt;
-          <div className="hoverEffect">
-            <div></div>
-          </div>
-        </button> */}
+ 
     </div>
   );
 }

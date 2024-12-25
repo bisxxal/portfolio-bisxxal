@@ -36,7 +36,7 @@ function Navbar({delay}:any) {
         <h2 className='animate-gradient'>B</h2><h2 className=" logo2">I</h2><h2 className=" logo2">S</h2><h2 className=" logo2">H</h2><h2 className=" logo2">A</h2><h2 className=" logo2">L</h2><h2 className=" logo2">.</h2> 
       </Link> 
       <div className="rnav">
-        <div className='bg-[#5151ffde] sad px-4 py-2 max-[328px]:text-xs max-[328px]:px-2 capitalize rounded-full'> 
+        <div className='bg-[#5151ffde buttonbg sad px-4 py-2 max-[328px]:text-xs max-[328px]:px-2 capitalize rounded-full'> 
           <a target='_blank' href='https://github.com/bisxxal'> 
             <h1 className='flex items-center gap-2'>Visit Repo <FaGithub className='text-lg'/></h1>
           </a>

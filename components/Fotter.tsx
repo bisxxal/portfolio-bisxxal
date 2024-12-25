@@ -101,13 +101,7 @@ function Footer() {
  
   return (
     <div  ref={container} className=' footer2 footer relative  w-full !overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
-         <Particles
-        className="absolute inset-0"
-        quantity={100}
-        ease={80}
-        color={'#ffffff'}
-        refresh
-      />
+         <Particles className="absolute inset-0" quantity={100} ease={80} color={'#ffffff'} refresh />
       <div ref={containers} className="dbox flex flex-col relative  justify-center items-center group text-center font-bold ">
  
          <div className='max-md:hidden whitespace-nowrap group-hover:opacity-[1] cursor flex !items-center !font-medium  gap-1 -pl-3 justify-center rounded-full z-10 opacity-0 border-2 border-[#ffffff15] backdrop-blur bg-[#ffffff3a] !h-10 !w-64   text-base '> 
@@ -124,7 +118,6 @@ function Footer() {
       </div>
 
 <div className=' flex items-center max-md:flex-wrap max-md:w-[90%] max-md:gap-5 max-md:mx-auto justify-around'>
-
    <a href="https://github.com/bisxxal" ref={element} className= " inshadow  frame d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-[#0D121B] rounded-3xl  lg:rounded-[40px] hover:bg-black flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
       <div className=' tilt-child flex items-center justify-center flex-col text-xl capitalize gap-3' >
           <FaGithub />
