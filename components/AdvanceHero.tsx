@@ -39,7 +39,7 @@ const AdvanceHero = () => {
       <div className="ant lll relative w-full h-full max-md:h-[96%] flex flex-col items-center justify-center overflow-hidden ">
         <div className=" overflow-hidden flex items-center gap-3">
           <h1 className="ant text-2xl text-zinc-400 overflow-hidden max-md:mr-24 relative">Hey, i am</h1> 
-          <Image className="img opacity-0 object-cover object-top hover:shadow-[0px_1px_50px_-2px_#4948e1] shadow-[#4948e1]  h-12 w-28 max-md:right-14 max-md:hover:right-10 right-[38%] hover:right-[35%] transition-all duration-700 hover:rounded-full rounded-[30px] hover:h-24 absolute hover:w-52  " src={'/bisxxal2.jpg'} height={200} width={200} alt='' />
+          <Image className="img opacity-0 object-cover object-top hover:shadow-[0px_1px_50px_-2px_#4948e1] drop-shadow-[0_15px_30px_#a855f7 footer2  shadow-[#4948e1]  h-12 w-28 max-md:right-14 max-md:hover:right-10 right-[38%] hover:right-[35%] transition-all duration-700 hover:rounded-full rounded-[30px] absolute hover:h-24  hover:w-52 max-md:hover:h-14 max-md:hover:w-32  " src={'/bisxxal.png'} height={200} width={200} alt='' />
         </div>
 
         <div className="  overflow-hidden  z-10 ">
