@@ -321,10 +321,10 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 }
 
 
-.heroshadow {
-  box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;
-}
-
+ .heroshadow {
+   box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed; 
+ } 
+  
 .cursor {
   position: fixed; 
   top: 0;

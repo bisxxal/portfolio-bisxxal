@@ -16,12 +16,12 @@ function Navbar({delay}:any) {
           duration: 1 }  
     )
     .from(".logo3 h2", {
-      y: -100,
+      y: -40,
       opacity: 0,
-      stagger: 0.1,
-      filter: 'blur(9px)',
-      duration: 0.7,
-    }, "-=0.2")
+      stagger: 0.051,
+      // filter: 'blur(9px)',
+      duration: 1.4,
+    }, )
     .from(".rnav", { 
       x: -30,
       opacity: 0,
