@@ -17,15 +17,12 @@ const AdvanceHero = () => {
       t1.from(".lll div h1 ", {
         y: 500,
         opacity: 0,
-        duration: 1.5,
+        duration: 1.09,
+        filter: "blur(10px)",
         delay: -1.5,
         stagger: 0.6,
       });
-      t1.to(".img", { 
-        opacity: 1,
-        duration: 0.5,
-        delay: -1.5, 
-      });
+      
     },
     { scope: container }
   );

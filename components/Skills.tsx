@@ -27,13 +27,13 @@ function Skil() {
  
   return (
     <div>
-        <div ref={ref} className="skils  relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10 bg-[#000319  text-[white]">
+        <div ref={ref} className="skils  relative min-h-[110vh] w-full capitalize overflow-hidden max-lg:pb-10    text-[white]">
  
           <Particles   className="absolute inset-0" quantity={100} ease={80} color={'#ffffff'} refresh />
 
           <h1 className=' ant logo text-center capitalize pt-6 font-bold text-[35px] max-md:text-[25px] p-[2vh] bg-transparent text-gray-300'>Things I m good at skills. </h1>
           <div className="skillwrapper defect1 h-[99%] w-full flex lg:items-center  justify-center ">
-            <div className=' con flex flex-wrap w-full gap-8 lg:gap-14 mb-24 lg:mb-20 lg:w-[80%] justify-evenly lg:justify-center  '>
+            <div className=' con flex flex-wrap w-full gap-8 lg:gap-14 mb-24 lg:mb-20 lg:w-[90%] justify-evenly lg:justify-center  '>
 
             <div className="skilsimgh border-[#ffffff10] inshadow shadow-2xl shadow-[black] w-[150px]  h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px] ">
         
@@ -123,6 +123,25 @@ function Skil() {
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
               <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.redit} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>redis</h1>
+            </div>
+
+
+            <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[62%] w-[58%] ' src={img.expo} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>expo</h1>
+            </div>
+            <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[63%] w-[65%] ' src={img.rnative} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>React native</h1>
+            </div>
+
+            <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.nginx} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Nginx</h1>
+            </div>
+            <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.aws} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>AWS</h1>
             </div>
 
 
