@@ -103,7 +103,7 @@ function Skil() {
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>postgress</h1>
             </div>
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  defect1 mrg ps">
-              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[65%] ' src={img.appwriter} alt=""  width={300} height={400}/>
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[50%] w-[60%] ' src={img.appwriter} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Appwrite</h1>
             </div>
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  defect1 mrg ps">
@@ -112,7 +112,7 @@ function Skil() {
             </div>
  
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
-              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.html} alt=""  width={300} height={400}/>
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[50%] w-[70%] ' src={img.html} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Html css</h1>
             </div>
 
@@ -140,7 +140,7 @@ function Skil() {
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>Nginx</h1>
             </div>
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
-              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.aws} alt=""  width={300} height={400}/>
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[40%] w-[60%] ' src={img.aws} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>AWS</h1>
             </div>
 

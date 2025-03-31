@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar";
 import Skil from "@/components/Skills"; 
 
 export default function Home() {
+  
   return (
     <>
      <Loader />  
