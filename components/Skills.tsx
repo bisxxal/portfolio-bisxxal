@@ -134,6 +134,10 @@ function Skil() {
               <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[63%] w-[65%] ' src={img.rnative} alt=""  width={300} height={400}/>
               <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>React native</h1>
             </div>
+            <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
+              <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[63%] w-[85%] '  src={img.bullmq} alt=""  width={300} height={400}/>
+              <h1 className=' mt-[10px] text-center font-[18px] bg-transparent'>BullMQ</h1>
+            </div>
 
             <div className="skilsimgh border-[#ffffff1b] inshadow shadow-xl shadow-[black] w-[150px] h-[145px] flex-col flex items-center justify-center overflow-hidden rounded-[30px] lg:mx-[50px] backdrop-blur-[5px]  mrg ht">
               <Image loading="lazy"  className='drop-shadow-[0_15px_30px_#a855f7] h-[58%] w-[85%] ' src={img.nginx} alt=""  width={300} height={400}/>

@@ -13,13 +13,13 @@ gsap.registerPlugin(useGSAP);
 const features = [
   {
     Icon: FaLink,
-    name: "One Link",
-    description: "Share you all links to everyone in one single link.",
-    href: "https://bisxxalonelink.vercel.app/",
+    name: "College Hub",
+    description: "A comprehensive platform for college students",
+    href: "https://collagehub.vercel.app/",
     cta: "GO Live",
     className: "col-span-3 lg:col-span-1",
-    background: img.w1,
-    imgclass:" object-contain  "
+    background: img.w8,
+    imgclass:" object-cover  "
   },
   {
     Icon: FaLaptopCode,

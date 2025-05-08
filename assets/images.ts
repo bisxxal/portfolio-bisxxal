@@ -6,9 +6,10 @@ import ps from "./ps.png";
 import python from "./Python.png";
 import java from "./java.svg";
 import html from "./newhtml.png";
-import w1 from "./w1.png";
+import bullmq from "./bullmq.png";
 import w4 from "./w5.png";
 import w6 from "./w6.png";
+import w8 from "./w8.png";
 import w5 from "./w5.jpg";
 import ts from "./ts.png";
 import nj from "./nj.png";
@@ -39,7 +40,7 @@ const img = {
   node,
   ps,
   python,
-  w1,
+  bullmq,
   nj,
   redit,
   quary,
@@ -49,6 +50,8 @@ const img = {
   expo,
   ts,
   w5,
+
+  w8,
   react,
   w4,
   icon1,
