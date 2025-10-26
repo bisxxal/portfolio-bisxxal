@@ -54,7 +54,7 @@ body {
 }
 .frame {
     background: #161621;
-    background: linear-gradient(317deg, #9a83d3 -161%, #080312 77%);
+    background: linear-gradient(317deg, #4543CA -161%, #080312 77%);
 }
 .proj {
   background: #161621;
@@ -62,12 +62,13 @@ body {
   background: linear-gradient(150deg, #9a83d3 -34%, #080312 45%);
 }
 
-.footer {  background: #18255a;
-  background: linear-gradient(180deg, #9a83d3 -36%, #080312 64%);
+.footer { 
+   background: #18255a;
+  background: linear-gradient(180deg, #4543CA -36%, #080312 64%);
 } 
 .footer2 {
   background: #161621;
-  background: linear-gradient(2deg, #9a83d3 -209%, #080312 42%);
+  background: linear-gradient(2deg, #4543CA -209%, #080312 42%);
 }
 
 .logo{
@@ -144,31 +145,16 @@ body::-webkit-scrollbar{
 box-shadow: 0px -1px 31px -2px #5151ffde;
  
 }  
-.animate-gradient {
-  background-image: radial-gradient(at 71% 98%, #8184ea 0px, transparent 50%), radial-gradient(at 36% 52%, #5497de 0px, transparent 50%), radial-gradient(at 27% 14%, #90eec9 0px, transparent 50%), radial-gradient(at 89% 2%, hsla(284,92%,63%,1) 0px, transparent 50%), radial-gradient(at 29% 65%, hsla(261,96%,78%,1) 0px, transparent 50%), radial-gradient(at 24% 34%, hsla(214,77%,63%,1) 0px, transparent 50%), radial-gradient(at 94% 18%, hsla(273,68%,67%,1) 0px, transparent 50%);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient 7s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+ 
 .logo h2,.movindtextdiv h1 { 
   font-family: "Bebas Neue" !important; 
 }
 .logo3 h2{  
   font-family: 'cb' !important; 
 } 
+.cbfont{
+  font-family: 'cb' !important; 
+}
   
 .leftside span{ 
   text-shadow: none;
@@ -282,22 +268,22 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   transition: all 0.5s ease;
 }
 
-.secondftr h2 , .logo2{
+.secondftr span , .logo2{
   background: rgb(17,17,17);
-  background:linear-gradient(179deg, #ffffff -22%, #34294c 98%); 
+  background:linear-gradient(179deg, #ffffff -22%, #4543ca54 98%); 
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
  
 .circlemove { 
-  animation: cirmove 4s infinite alternate-reverse ease-in-out;
+  animation: cirmove 6s infinite alternate-reverse ease-in-out;
 }
 @keyframes cirmove {to{ transform: translateX(0) ; }from{ transform: translateX(30%) translateY(-40%); }  }
 
 .retrohover:hover {
   background: #161621;
-  background: linear-gradient(0deg, #4e4e4e -3%, #08031200 49%) !important;
+  background: linear-gradient(0deg, #7689ea54 -3%, #08031200 49%) !important;
 }
  
 .retro {
@@ -322,9 +308,14 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 
 
  .heroshadow {
-   box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed; 
+   /* box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;  */
+      box-shadow:  20px -19px 76px 20px  #5151ff, inset -20px 15px 113px 20px #837ae9;
  } 
   
+  .heroshadow2 {
+   /* box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;  */
+      box-shadow:  20px -19px 76px 20px #5151ff, inset -19px -20px 113px 20px #837ae9;
+ } 
 .cursor {
   position: fixed; 
   top: 0;
@@ -348,7 +339,12 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 .raintext{
   @apply bg-gradient-to-r from-indigo-500 text-white via-purple-500 to-pink-500 ;
 }
- 
+
+.blackbar{
+  /* clip-path: ellipse(13% 48% at 50% 49%); */
+/* clip-path: polygon(48.22% 41.83%, 100% 25%, 59.31% 52.36%, 46.75% 64.09%, 24.75% 75%, 37.62% 100%); */
+clip-path: ellipse(47% 54% at center);
+}
   @layer base {
   :root {
     --background: 0 0% 100%;
