@@ -9,161 +9,184 @@
   src: url('/fonts/NeuePower-Ultra.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; 
+  font-display: swap;
 }
+
 @font-face {
   font-family: 'cb';
   src: url('/fonts/cyberank-malrv.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; 
+  font-display: swap;
 }
- 
-.ant{
-  font-family: 'New' !important; 
+
+.ant {
+  font-family: 'New' !important;
 }
-.leftside h1,.leftside span { 
-  font-family:  'New' !important;
-  font-weight: bolder;  
-} 
+
+.leftside h1,
+.leftside span {
+  font-family: 'New' !important;
+  font-weight: bolder;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif; 
+  font-family: "Poppins", sans-serif;
 }
-html,body {
+
+html,
+body {
   width: 100%;
   height: 100%;
 }
+
 body {
   position: relative;
   color: white !important;
   background-color: #080311;
 }
-.inshadow{
+
+.inshadow {
   box-shadow: inset 0 0 10px #ffffff1c;
 }
-.inshadow2{
+
+.inshadow2 {
   box-shadow: inset 0 0 30px #ffffff57;
 }
- 
-.inshadow2hover:hover{
+
+.inshadow2hover:hover {
   box-shadow: inset 0 0 55px #ffffff57;
 }
+
 .frame {
-    background: #161621;
-    background: linear-gradient(317deg, #4543CA -161%, #080312 77%);
+  background: #161621;
+  background: linear-gradient(317deg, #4543CA -161%, #080312 77%);
 }
+
 .proj {
   background: #161621;
   background: linear-gradient(135deg, #9a83d3 -161%, #080312 77%);
   background: linear-gradient(150deg, #9a83d3 -34%, #080312 45%);
 }
 
-.footer { 
-   background: #18255a;
+.footer {
+  background: #18255a;
   background: linear-gradient(180deg, #4543CA -36%, #080312 64%);
-} 
+}
+
 .footer2 {
   background: #161621;
   background: linear-gradient(2deg, #4543CA -209%, #080312 42%);
 }
 
-.logo{
-  background: rgb(17,17,17);
-  background:linear-gradient(179deg, #ffffff -22%, #080312 98%); 
+.logo {
+  background: rgb(17, 17, 17);
+  background: linear-gradient(179deg, #ffffff -22%, #080312 98%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-.logo3{
-  background: rgb(17,17,17);
+
+.logo3 {
+  background: rgb(17, 17, 17);
   background: linear-gradient(179deg, #ffffff 17%, #8268b7 70%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 0;
-} 
-::selection{
-  background-color  : #5d449a;
+}
+
+::selection {
+  background-color: #5d449a;
   color: #121925;
 }
+
 .tilt {
   transform-style: preserve-3d;
 }
- 
-.tilt-child{
-  
+
+.tilt-child {
+
   transform: translateZ(20px);
 }
 
-.sitgrd{  
+.sitgrd {
   background: linear-gradient(0deg, #154adc6b 44%, #00031900 102%);
 }
+
 .ins:hover {
-  background: linear-gradient(45deg, #f9ce34,#ee2a7b,#6228d7); 
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
   animation: gradientBackground 15s ease infinite;
   transform-style: preserve-3d;
-} 
+}
 
-.inns:hover{
-  background: linear-gradient(45deg, #f9ce34,#ee2a7b,#6228d7);
+.inns:hover {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maill:hover{
-  background: linear-gradient(160deg, #0047e7,#008744,#d62d20 );
+
+.maill:hover {
+  background: linear-gradient(160deg, #0047e7, #008744, #d62d20);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .mail:hover {
-  background: linear-gradient(160deg, #0047e7,#008744,#d62d20 );
+  background: linear-gradient(160deg, #0047e7, #008744, #d62d20);
   animation: gradientBackground 15s ease infinite;
   transform-style: preserve-3d;
-} 
+}
 
 @keyframes gradientBackground {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
-.sad{ 
-box-shadow: 0px -1px 31px -2px #5151ffde;
- 
-}  
- 
-.logo h2,.movindtextdiv h1 { 
-  font-family: "Bebas Neue" !important; 
+
+.sad {
+  box-shadow: 0px -1px 31px -2px #5151ffde;
+
 }
-.logo3 h2{  
-  font-family: 'cb' !important; 
-} 
-.cbfont{
-  font-family: 'cb' !important; 
+
+.logo h2,
+.movindtextdiv h1 {
+  font-family: "Bebas Neue" !important;
 }
-  
-.leftside span{ 
+
+.logo3 h2 {
+  font-family: 'cb' !important;
+}
+
+.cbfont {
+  font-family: 'cb' !important;
+}
+
+.leftside span {
   text-shadow: none;
-} 
+}
+
 .lbtn:active {
   transform: scale(0.95);
   background: linear-gradient(270deg, #360266, #4E48E6, #ff00ea);
   background-size: 400% 400%;
-   
+
   animation: gradient 10s ease infinite;
 }
 
@@ -205,8 +228,8 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 }
 
 .hoverEffect div {
-  background: rgb(222,0,75);
-  background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+  background: rgb(222, 0, 75);
+  background: linear-gradient(90deg, rgba(222, 0, 75, 1) 0%, rgba(191, 70, 255, 1) 49%, rgba(0, 212, 255, 1) 100%);
   border-radius: 40rem;
   width: 10rem;
   height: 10rem;
@@ -224,24 +247,33 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 @keyframes effect {
   0% {
     transform: rotate(0deg);
-  }100% {
-    transform: rotate(360deg);}
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.mainimg ,.icon{
+
+.mainimg,
+.icon {
   animation: imgani 1s linear alternate-reverse infinite;
-  filter:contrast(1.19) drop-shadow(-10px 4px 12px #000000a7);
+  filter: contrast(1.19) drop-shadow(-10px 4px 12px #000000a7);
 }
-.icon{
-  animation: imgani 2s linear alternate-reverse infinite; 
+
+.icon {
+  animation: imgani 2s linear alternate-reverse infinite;
 }
+
 @keyframes imgani {
   0% {
     transform: translateY(5px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 .movindtextdiv h1 ::selection {
   background-color: transparent;
 }
@@ -253,6 +285,7 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   z-index: 20;
   background: linear-gradient(76deg, #121925 0%, rgba(255, 255, 255, 0) 123%);
 }
+
 .skilsimgh {
   box-shadow: inset 0 0 83px #9551ff1c;
   background: #161621;
@@ -268,24 +301,34 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   transition: all 0.5s ease;
 }
 
-.secondftr span , .logo2{
-  background: rgb(17,17,17);
-  background:linear-gradient(179deg, #ffffff -22%, #4543ca54 98%); 
+.secondftr span,
+.logo2 {
+  background: rgb(17, 17, 17);
+  background: linear-gradient(179deg, #ffffff -22%, #4543ca54 98%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
- 
-.circlemove { 
+
+.circlemove {
   animation: cirmove 6s infinite alternate-reverse ease-in-out;
 }
-@keyframes cirmove {to{ transform: translateX(0) ; }from{ transform: translateX(30%) translateY(-40%); }  }
+
+@keyframes cirmove {
+  to {
+    transform: translateX(0);
+  }
+
+  from {
+    transform: translateX(30%) translateY(-40%);
+  }
+}
 
 .retrohover:hover {
   background: #161621;
   background: linear-gradient(0deg, #7689ea54 -3%, #08031200 49%) !important;
 }
- 
+
 .retro {
   background: #161621;
   background: linear-gradient(0deg, #2e2e2e -23%, #08031200 37%);
@@ -298,6 +341,7 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
   background-clip: text;
   color: transparent;
 }
+
 .logos {
   background: rgb(17, 17, 17);
   background: linear-gradient(113deg, #ffffff -8%, #080312 114%);
@@ -307,45 +351,55 @@ box-shadow: 0px -1px 31px -2px #5151ffde;
 }
 
 
- .heroshadow {
-   /* box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;  */
-      box-shadow:  20px -19px 76px 20px  #5151ff, inset -20px 15px 113px 20px #837ae9;
- } 
-  
+.heroshadow {
+  /* box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;  */
+  box-shadow: 20px -19px 76px 20px #5151ff, inset -20px 15px 113px 20px #837ae9;
+}
+
+.heroshadow2 {
+  /* box-shadow:  20px -19px 76px 20px #5151ff, inset -19px -20px 113px 20px #837ae9; */
+  box-shadow: 0px 0px 88px 34px #f96a10, inset -1px 2px 213px 20px #d0946c;
+}
+
+@media (max-width: 600px) {
   .heroshadow2 {
-   /* box-shadow: 20px -16px 76px 0px #5151ffde, inset 20px 0px 113px #8a81ed;  */
-      box-shadow:  20px -19px 76px 20px #5151ff, inset -19px -20px 113px 20px #837ae9;
- } 
+  box-shadow: 0px 0px 88px 34px #f96a10, inset -1px 2px 213px 0px #d0946c;
+}
+    }
+
 .cursor {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
-  pointer-events: none;  
-  transform: translate(-50%, -0%);  
+  pointer-events: none;
+  transform: translate(-50%, -0%);
 }
 
 .followbg {
   background: rgba(2, 0, 36, 0);
-  background: radial-gradient(circle, #56408ea1 0%, #341f6582 1%, #00d5ff00 66%); 
+  background: radial-gradient(circle, #56408ea1 0%, #341f6582 1%, #00d5ff00 66%);
 }
 
- 
-.textbase{
+
+.textbase {
   color: #3352cc;
 }
-.buttonbg{
-  @apply bg-gradient-to-br text-white  from-[#3352CC] to-[#1C2D70];
-}
-.raintext{
-  @apply bg-gradient-to-r from-indigo-500 text-white via-purple-500 to-pink-500 ;
+
+.buttonbg {
+  @apply bg-gradient-to-br text-white from-[#3352CC] to-[#1C2D70];
 }
 
-.blackbar{
-  /* clip-path: ellipse(13% 48% at 50% 49%); */
-/* clip-path: polygon(48.22% 41.83%, 100% 25%, 59.31% 52.36%, 46.75% 64.09%, 24.75% 75%, 37.62% 100%); */
-clip-path: ellipse(47% 54% at center);
+.raintext {
+  @apply bg-gradient-to-r from-indigo-500 text-white via-purple-500 to-pink-500;
 }
-  @layer base {
+
+.blackbar {
+  /* clip-path: ellipse(13% 48% at 50% 49%); */
+  /* clip-path: polygon(48.22% 41.83%, 100% 25%, 59.31% 52.36%, 46.75% 64.09%, 24.75% 75%, 37.62% 100%); */
+  clip-path: ellipse(47% 54% at center);
+}
+
+@layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -376,8 +430,9 @@ clip-path: ellipse(47% 54% at center);
     --color-2: 270 100% 63%;
     --color-3: 210 100% 63%;
     --color-4: 195 100% 63%;
-    --color-5: 90 100% 63%; 
+    --color-5: 90 100% 63%;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -407,15 +462,16 @@ clip-path: ellipse(47% 54% at center);
     --color-2: 270 100% 63%;
     --color-3: 210 100% 63%;
     --color-4: 195 100% 63%;
-    --color-5: 90 100% 63%; 
-  } 
+    --color-5: 90 100% 63%;
+  }
 }
 
-  @layer base {
+@layer base {
   * {
-    @apply border-border; 
+    @apply border-border;
   }
+
   body {
-    @apply bg-background text-foreground; 
-  } 
+    @apply bg-background text-foreground;
+  }
 }
