@@ -7,8 +7,6 @@ gsap.registerPlugin(useGSAP);
 function Loader() {
   useGSAP(() => {
     var t1 = gsap.timeline();
-
-
      gsap.from(".bghole", {
         y: 50,
         x: -50,

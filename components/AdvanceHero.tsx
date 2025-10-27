@@ -12,7 +12,7 @@ const AdvanceHero = () => {
       opacity: 0,
       duration: 1.4,
       y: 400,
-      delay: 4.2,
+      delay: 3,
     });
     t1.from(".lll div h1 ", {
       y: 500,

@@ -14,7 +14,7 @@ export default function Home() {
   return (
    <>
   <Loader />
-  <Navbar delay={4.2} />
+  <Navbar delay={3} />
   <section className="relative min-h-screen">
     <div className="overflow-visible">
       <AdvanceHero />
