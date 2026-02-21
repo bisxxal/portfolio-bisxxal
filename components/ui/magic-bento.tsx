@@ -3,6 +3,8 @@ import React, { useRef, useEffect, useState, useCallback } from "react";
 import { gsap } from "gsap";
 import img from '@/assets/images';
 import Image from "next/image";
+import { useGSAP } from "@gsap/react";
+
 
 export interface BentoCardProps {
     color?: string;
@@ -70,10 +72,10 @@ const cardData: BentoCardProps[] = [
     },
     {
         color: "#060010",
-        title: "Security",
-        description: "Enterprise-grade protection",
-        label: "Protection",
-         background: img.w6,
+        title: "Ai Tools",
+        description: "readme file  generator",
+        label: "Github Repo",
+        background: img.w6,
     },
 ];
 
@@ -580,6 +582,9 @@ const MagicBento: React.FC<BentoProps> = ({
     const gridRef = useRef<HTMLDivElement>(null);
     const isMobile = useMobileDetection();
     const shouldDisableAnimations = disableAnimations || isMobile;
+
+
+   
 
     return (
         <>

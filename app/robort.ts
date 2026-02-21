@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '* ',
       disallow: '/private/',
     },
-    sitemap: 'https://bisxxal.tech/sitemap.xml',
+    sitemap: 'https://bishal.online/sitemap.xml',
   }
 }

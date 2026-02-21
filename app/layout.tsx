@@ -4,25 +4,25 @@ import SmoothScrolling from "@/components/Scrolling";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "bisxxal",
+  title: "Bishal",
   description: "portfolio of bishal kandi",
-  keywords: "bishal kandi portfolio,bishal portfolio, bishal kandi, bisxxal , bisxxal portfolio",
+  keywords: "bishal kandi portfolio,bishal portfolio, bishal kandi, bishal , bishal portfolio",
   openGraph: {
-    url: "https://bisxxal.tech",
-    title: "bisxxal",
+    url: "https://bishal.online",
+    title: "bishal",
     description: "portfolio of bishal kandi",
     images: [
-      "https://bisxxal.vercel.app/favicon.ico"
+      "https://bishal.online/favicon.ico"
     ],
   },
   twitter: {
-    title: "bisxxal",
+    title: "Bishal",
     description: "portfolio of bishal kandi",
     images: [
-      "https://bisxxal.vercel.app/favicon.ico"
+      "https://bishal.online/favicon.ico"
     ],
     card: "summary_large_image",
-    creator: "@bisxxal",
+    creator: "@bishal",
   },
 };
 export default function RootLayout({
@@ -34,7 +34,6 @@ export default function RootLayout({
     <html lang="en">
       <body className=" relative ">
         <SmoothScrolling>
-
           {children}
           <Toaster />
         </SmoothScrolling>

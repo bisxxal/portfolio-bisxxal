@@ -101,7 +101,7 @@ function Footer() {
 
 
   return (
-    <div ref={container} className='pb-20 footer2 footer relative  w-full !overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
+    <div ref={container} className='pb-20 relative footer w-full !overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
       <Particles className="absolute inset-0" quantity={50} ease={80} color={'#ffffff'} refresh />
       <div ref={containers} className="dbox flex flex-col relative  justify-center items-center group text-center font-bold ">
 
@@ -111,7 +111,7 @@ function Footer() {
 
         <Link href={'/contact'} className='secondftr  text-[110px] opacity-100 !flex overflow-hidden max-md:text-[90px] lg:text-[250px] leading-none'>
           <span>C</span><span>O</span><span>N</span><span>T</span><span>A</span>
-          <span>C</span><span>T</span>
+          <span>C</span><span>T</span> 
         </Link>
         <h1 className=' w-[80%] ant whitespace-nowrap text-gray-500 lg:w-[27%] mx-auto rounded-full max-md:text-[20px]  text-[30px]'>
           Me,  I am avalivale for Work
@@ -119,26 +119,26 @@ function Footer() {
       </div>
 
       <div className=' flex items-center max-md:flex-wrap max-md:w-[90%] max-md:gap-5 max-md:mx-auto justify-around'>
-        <a href="https://github.com/bisxxal" ref={element} className="    frame d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-[#0D121B] rounded-3xl  lg:rounded-[40px] hover:bg-black flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
+        <a href="https://github.com/bisxxal" ref={element} className="  border border-[#ffffff24] d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-gradient-to-br from-indigo-900/20 to-transparent  rounded-3xl  lg:rounded-[40px] hover:bg-black flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
           <div className=' tilt-child flex items-center justify-center flex-col text-xl capitalize gap-3' >
             <FaGithub />
             <h1 >git hub</h1>
           </div>
         </a>
-        <a href='https://www.linkedin.com/in/vishal-b-1ab8bb26a/' ref={element} className="   frame d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-[#0D121B] rounded-3xl  lg:rounded-[40px] hover:bg-[#0A66C2] flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
+        <a href='https://www.linkedin.com/in/vishal-b-1ab8bb26a/' ref={element} className=" border border-[#ffffff24] d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-gradient-to-br from-indigo-900/20 to-transparent  rounded-3xl  lg:rounded-[40px] hover:bg-[#0A66C2] flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
           <div className=' tilt-child flex items-center justify-center flex-col text-xl capitalize gap-3' >
             <CiLinkedin />
             <h1 >linked in</h1>
           </div>
         </a>
-        <a href='https://instagram.com/bisxxal' ref={element} className="z   frame d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-[#0D121B] rounded-3xl  lg:rounded-[40px] ins flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
+        <a href='https://instagram.com/bisxxal' ref={element} className="z border border-[#ffffff24] d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-gradient-to-br from-indigo-900/20 to-transparent  rounded-3xl  lg:rounded-[40px] ins flex items-center justify-center tilt " data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
           <div className=' tilt-child flex items-center justify-center flex-col text-xl capitalize gap-3' >
             <FaInstagram />
             <h1 >instagram</h1>
 
           </div>
         </a>
-        <a href='mailto:bishalkandi859494@gmail.com' ref={element} className="   frame d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-[#0D121B] rounded-3xl   lg:rounded-[40px]   flex items-center justify-center tilt mail" data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
+        <a href='mailto:bishalkandi859494@gmail.com' ref={element} className=" border border-[#ffffff24] d-pointer h-52 max-md:h-36  w-44 max-md:w-[140px] lg:w-52 bg-gradient-to-br from-indigo-900/20 to-transparent  rounded-3xl   lg:rounded-[40px]   flex items-center justify-center tilt mail" data-tilt data-tilt-max="50" data-tilt-speed="1000" data-tilt-perspective="500">
           <div className=' tilt-child flex items-center justify-center flex-col text-xl capitalize gap-3' >
             <SiGmail />
             <h1 >Mail</h1>
@@ -147,7 +147,7 @@ function Footer() {
       </div>
       <div className="logo3 text-gray-500  flex items-center  justify-center text-[34px] lowercase ">
         <h1 className=' text-base mx-3'>Made By</h1> 
-        <ShinyText text="Bishal " disabled={false} speed={2} className='cbfont   hover:scale-[1.05] transition-all  text-[24px] font-extrabold  ' />
+        <ShinyText text="Bishal " disabled={false} speed={2} className=' cursor-pointer cbfont  hover:scale-[1.05] transition-all  text-[24px] font-extrabold  ' />
          <h1 className=' mx-3 text-base'>With ❤️ </h1>
       </div>
     </div>

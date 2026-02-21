@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import Meteors from "./ui/meteors";
 import Particles from "./ui/particles";
+import ShinyText from "./ui/shiny-border";
 const AdvanceHero = () => {
   const container = useRef<HTMLDivElement | null>(null);
   useGSAP(() => {
@@ -14,7 +15,7 @@ const AdvanceHero = () => {
       y: 400,
       delay: 3,
     });
-    t1.from(".lll div h1 ", {
+    t1.from(".anih1", {
       y: 500,
       opacity: 0,
       duration: 1.09,
@@ -40,8 +41,9 @@ const AdvanceHero = () => {
         </div>
 
         <div className=" overflow-hidden z-10 ">
-          <h1 className="ant cursor-default second max-[430px]:text-[22vw] text-[25vw] whitespace-nowrap leading-[350px] max-md:leading-[200px] opacity-100 font-bold overflow-hidden "> <span className="ant inline-flex logof">B</span><span className="ant inline-flex logos">ISHAL</span>
-          </h1>
+          {/* <h1 className="ant cursor-default second anih1 max-[430px]:text-[22vw] text-[25vw] whitespace-nowrap leading-[350px] max-md:leading-[200px] opacity-100 font-bold overflow-hidden "> <span className="ant inline-flex logof">B</span><span className="ant inline-flex logos">ISHAL</span></h1> */}
+
+          <ShinyText text="BISHAL" disabled={false} speed={2.2} className='ant anih1 max-[430px]:text-[22vw] text-[25vw] font-bold  ' />  
         </div>
 
         <div className="  overflow-hidden">

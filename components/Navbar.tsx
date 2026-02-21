@@ -2,7 +2,6 @@
 import { FaGithub } from "react-icons/fa";
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import Link from "next/link";
 import ShinyText from "./ui/shiny-border";
 
 function Navbar({ delay }: any) {
