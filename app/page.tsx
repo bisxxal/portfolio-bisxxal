@@ -5,10 +5,8 @@ import Follow from "@/components/Follow";
 import Footer from "@/components/Fotter";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
-import Skill from "@/components/Skill";
-import GradientSection from "@/components/ui/GradientSection";
+import Skills from "@/components/Skill";
 import GradualBlurMemo from "@/components/ui/GradualBlur";
-import MagicBento from "@/components/ui/magic-bento"; 
 export default function Home() {
  
   return (
@@ -20,26 +18,9 @@ export default function Home() {
       <AdvanceHero />
       <AboutPage />
       <Follow />
-      <Skill />
-
-      <div className="w-full whdo bg-[#FDFBEC] ">
-        <h1 className="me ant max-md:text-4xl mb-5 !max-[385px]:text-3xl text-5xl font-extrabold text-center logo2">
-          What I Made?
-        </h1>
-        <MagicBento
-          textAutoHide={true}
-          enableStars={true}
-          enableSpotlight={true}
-          enableBorderGlow={true}
-          enableTilt={true}
-          enableMagnetism={true}
-          clickEffect={true}
-          spotlightRadius={300}
-          particleCount={12}
-          glowColor="255, 115, 0"
-        />
-        <GradientSection rotate={'180deg'}/>
-      </div>
+      <Skills />
+ 
+      {/* <Work/> */}
 
       <Footer />
     </div>

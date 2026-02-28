@@ -34,9 +34,7 @@ function Navbar({ delay }: any) {
 
   return (
     <div className="nav h-[60px] w-0 top-5 flex fixed items-center px-4   z-[90] rounded-full   bg-[#ffffff09]  backdrop-blur-lg justify-between">
-
-      <ShinyText text="Bishal." disabled={false} speed={3} className='cbfont ml-3  cursor-pointer  hover:scale-[1.05] transition-all  text-[24px] font-extrabold  ' />
-
+      <ShinyText text="Bishal ." disabled={false} speed={3} className='  followtext followtextbold uppercase ml-3  cursor-pointer  hover:scale-[1.05] transition-all  text-[30px] font-extrabold  ' />
       <div className="rnav">
         <div className='bg-[#5151ffde buttonbg sad px-4 py-2 max-[328px]:text-xs max-[328px]:px-2 capitalize rounded-full'>
           <a target='_blank' href='https://github.com/bisxxal'>
@@ -49,3 +47,4 @@ function Navbar({ delay }: any) {
 }
 
 export default Navbar;
+ 

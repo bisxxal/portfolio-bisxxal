@@ -101,7 +101,7 @@ function Footer() {
 
 
   return (
-    <div ref={container} className='pb-20 relative footer w-full !overflow-hidden   flex flex-col justify-around h-[78vh] lg:h-screen '>
+    <div ref={container} className='pb-10 relative footer w-full !overflow-hidden   flex flex-col justify-around h-[80vh] lg:h-[96vh] '>
       <Particles className="absolute inset-0" quantity={50} ease={80} color={'#ffffff'} refresh />
       <div ref={containers} className="dbox flex flex-col relative  justify-center items-center group text-center font-bold ">
 
@@ -114,7 +114,7 @@ function Footer() {
           <span>C</span><span>T</span> 
         </Link>
         <h1 className=' w-[80%] ant whitespace-nowrap text-gray-500 lg:w-[27%] mx-auto rounded-full max-md:text-[20px]  text-[30px]'>
-          Me,  I am avalivale for Work
+          I am avalivale for Work
         </h1>
       </div>
 
@@ -147,7 +147,7 @@ function Footer() {
       </div>
       <div className="logo3 text-gray-500  flex items-center  justify-center text-[34px] lowercase ">
         <h1 className=' text-base mx-3'>Made By</h1> 
-        <ShinyText text="Bishal " disabled={false} speed={2} className=' cursor-pointer cbfont  hover:scale-[1.05] transition-all  text-[24px] font-extrabold  ' />
+        <ShinyText text="Bishal " disabled={false} speed={2} className=' cursor-pointer followtext uppercase  hover:scale-[1.05] transition-all  text-[24px] font-extrabold  ' />
          <h1 className=' mx-3 text-base'>With ❤️ </h1>
       </div>
     </div>

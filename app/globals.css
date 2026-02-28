@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,14 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
-
-@font-face {
-  font-family: 'cb';
-  src: url('/fonts/cyberank-malrv.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+ 
 
 .ant {
   font-family: 'New' !important;
@@ -117,7 +112,7 @@ body::-webkit-scrollbar {
 }
 
 .inns:hover {
-  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  background: linear-gradient(45deg, #f5c620, #f91a77, #5c17e6);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -159,14 +154,7 @@ body::-webkit-scrollbar {
 .movindtextdiv h1 {
   font-family: "Bebas Neue" !important;
 }
-
-.logo3 h2 {
-  font-family: 'cb' !important;
-}
-
-.cbfont {
-  font-family: 'cb' !important;
-}
+ 
 
 .leftside span {
   text-shadow: none;
@@ -385,14 +373,12 @@ body::-webkit-scrollbar {
   @apply bg-gradient-to-r from-indigo-500 text-white via-purple-500 to-pink-500;
 }
 
-.blackbar {
-  /* clip-path: ellipse(13% 48% at 50% 49%); */
-  /* clip-path: polygon(48.22% 41.83%, 100% 25%, 59.31% 52.36%, 46.75% 64.09%, 24.75% 75%, 37.62% 100%); */
+.blackbar { 
   clip-path: ellipse(47% 54% at center);
 }
 
 .gradsec{
-  background: radial-gradient(120% 100% at 50% 100%, #0000 35% 45%, #f5dacc 58%, #ff9f6b 68%, #ff884c 75%, #c05711 85%, #29190f 93%, #000);
+  background: radial-gradient(120% 100% at 50% 100%, #0000 35% 45%, #f5dacc 58%, #ff9f6b 68%, #f57e43 75%, #e65e2c 85%, #29190f 93%, #080311);
 }
 
 @layer base {
@@ -472,3 +458,39 @@ body::-webkit-scrollbar {
   }
 }
  
+
+.followtext{
+   /* font-family: 'DM Mono' !important; */
+   font-family: 'Syne', sans-serif !important;
+    
+   letter-spacing: -0.04em;
+   font-weight: bolder !important;
+
+   line-height: 0.92 !important;  
+}
+.line-2 { 
+  font-size: 7.8vw; 
+  font-family: 'Syne', sans-serif;
+} 
+.line-1 { font-size: 7vw !important; }   
+.line-2 { font-size: 6vw !important; }  
+.line-3 { font-size: 7.2vw !important; } 
+.followtextbold{
+  font-weight: bolder !important;
+}
+.highlight {
+      background: linear-gradient(135deg, #ff6b35 0%, #ff9a5c 50%, #ffd700 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+     }
+ 
+   
+     .highlight2 {
+      background: linear-gradient(135deg, #e65e2c 0%, #ff9a5c 50%, #ffffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+     }
+ 
+   
